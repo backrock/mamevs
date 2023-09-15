@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{48A9E131-348D-A287-9DED-9CDA89F08C09}</ProjectGuid>
+    <RootNamespace>misc</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.10240.0</WindowsTargetPlatformMinVersion>
+    <Keyword>Win32Proj</Keyword>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\..\vs2019\bin\x32\Debug\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x32\Debug\misc\</IntDir>
+    <TargetName>misc</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\..\..\vs2019\bin\x64\Debug\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x64\Debug\misc\</IntDir>
+    <TargetName>misc</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\..\vs2019\bin\x32\Release\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x32\Release\misc\</IntDir>
+    <TargetName>misc</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\..\..\vs2019\bin\x64\Release\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x64\Release\misc\</IntDir>
+    <TargetName>misc</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)misc.pdb</ProgramDataBaseFileName>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)misc.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)misc.pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)misc.pdb</ProgramDataBaseFileName>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)misc.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)misc.pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)misc.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)misc.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\3do.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\ace_sp_reelctrl.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\ampoker2.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\artmagic.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\calomega.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\cave.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\coolpool.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\dcheese.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\efdt.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\esd16.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\esripsys.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\flower_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\gotcha.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\homedata.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\inder_sb.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\ladyfrog.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\malzak.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\micro3d.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\micro3d_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\multfish.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\nabupc_kbd.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\nl_cocoloco.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\norautp.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\policetr.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\shangkid.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\39in1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\3do.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\3do_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\4enlinea.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\4enraya.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\5clown.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\a1supply.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\acefruit.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\aces1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\acesp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ace_sp_reelctrl.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\age_candy.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\alinvade.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\amaticmg.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\amerihok.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ampoker2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ampoker2_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\amspdwy.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\amstarz80.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\amusco.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\amuzy.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\anes.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\arachnid.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\artmagic.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\artmagic_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\astrafr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\astrcorp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\astropc.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\atronic.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\attckufo.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\avt.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\babysuprem.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\bailey.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\beaminv.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\beezer.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\belatra.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\bingoman.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\bingor.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\blitz68k.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\blocktax.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\bntyhunt.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\brglitz.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\buster.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\calomega.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\calomega_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cardline.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\carrera.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\castle.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cave.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cavepc.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cave_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cb2001.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\chameleonrx1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\chance32.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\changyu.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\chicago.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\chsuper.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cleartone.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\clowndwn.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\clpoker.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cocoloco.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\coinmstr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\coinmvga.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cointek.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\comebaby.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\compucranes.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\coolpool.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\corona.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cosmos_playc8f.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cowtipping.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\crazybal.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cromptons.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\crospuzl.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\crystal.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cubeqst.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cupidon.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cv1k.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cwheel.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cybertnk.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\daryde.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dcheese.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dcheese_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ddz.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dfruit.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dgpix.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\diamondking.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\discoboy.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dmainevent.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dominob.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dorachan.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\drdmania.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dreamwld.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dwarfd.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dynadice.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dynamoah.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ecoinf1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ecoinf2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ecoinf3.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ecoinfr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\efdt.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\efg8080.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\electra.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\enigma2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\epos.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\esd16.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\esd16_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\esh.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\esripsys.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\esripsys_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ettrivia.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\eva.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\extrema.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ez2d.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\falgas_m89.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\fastinvaders.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\fireball.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\flipjack.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\flower.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\flower_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\fortecar.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\freekick.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\freeway.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\fresh.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\funeball.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\fungames.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\funkball.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\galaxi.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\galgame.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gambl186.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gameace.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gamemasters.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gammagic.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gamtor.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gei.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gfamily.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\globalfr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\globalvr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gluck2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\goldngam.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\goldnpkr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\good.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gotcha.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gotcha_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gsspade.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gumbo.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gunpey.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\h01x.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\hapyfish.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\hazelgr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\hideseek.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\highvdeo.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\hitpoker.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\hobbyplay.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\homedata.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\homedata_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\hotblock.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\hotchili.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\hotstuff.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\houseball.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\imolagp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\inder_sb.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\interflip8035.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\intrscti.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\island.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\istellar.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\itgambl2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\itgambl3.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\itgamble.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\jackpool.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\jackpot.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\jankenmn.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\jokrwild.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\joystand.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\jubilee.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\jungleyo.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\kas89.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\katosmedz80.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\kingpin.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\kurukuru.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ladyfrog.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ladyfrog_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\laserbas.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\laz_aftrshok.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\laz_ribrac.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\lependu.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\limenko.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ltcasino.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\luckybal.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\magic10.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\magicard.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\magicfly.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\magictg.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\magreel.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\magtouch.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\majorpkr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\malzak.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\malzak_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\marywu.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\matrix.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\mcatadv.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\mcm70.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\megaphx.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\menghong.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\meyc8080.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\meyc8088.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\mgavegas.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\micro3d.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\micro3d_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\micro3d_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\micro3d_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\microdar.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\mil4000.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\miniboy7.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\minivideo.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\mirax.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\mjsenpu.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\mole.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\monon_color.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\mosaic.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\mpu12wbk.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\mtu130.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\multfish.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\multfish_boot.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\murogem.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\murogmbl.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\musclem.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\nabupc.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\nabupc_kbd.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\neomania.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\neoprint.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\news.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\nexus3d.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\nibble.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\nl_cocoloco.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\norautp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\norautp_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\notechan.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\nsg6809.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\nsmpoker.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\odyssey.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\oneshot.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\onetwo.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\opercoin.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\othello.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\pachifev.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\pasha2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\pass.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\photon.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\photon2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\piggypas.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\pipeline.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\pkscram.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\playcenter.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\plsonic4.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\pmc.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\pntnpuzl.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\poker72.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\pokerout.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\policetr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\policetr_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\potgoldu.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\proconn.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\psattack.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\pse.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\quizo.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\quizpun2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\radikaldarts.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\rawthrillspc.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\rbmk.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\rcorsair.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\re900.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\rf51w14cg.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\rfslots8085.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\rfslotsmcs48.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\rfslotspcpent.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\rgum.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\roul.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\rulechan.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\sanremmg.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\sanremo.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\savquest.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\scm_500.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\sealy.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\sealy_fr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\sfbonus.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\shambros.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\shangkid.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\shangkid_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\silverball.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\skeetsht.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\skimaxx.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\skopro.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\skyarmy.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\skylncr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\sliver.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\smd2144c.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\smotor.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\smsmcorp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\sothello.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\spdamjes.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\spool99.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\sprcros2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ssingles.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\sstrangr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\startouch.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\statriv2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\stop.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\strkzn.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\stuntair.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\su2000.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\summit.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\sumt8035.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\supertnk.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\tapatune.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\tattack.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\taxidriv.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\teamjocs.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\tecnodar.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\thayers.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\tickee.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\tmspoker.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\tomsadvs.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\toratora.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\triton.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\triviaquiz.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\trivrus.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\truco.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\trucocl.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\truesys.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\trvmadns.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ttchamp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\tugboat.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\tvg01.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\twinbskt.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\umipoker.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\unkgolf.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\unkhorse.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\unkpoker.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\unktop.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\usbilliards.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\usgames.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\v0bowl.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\vamphalf.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\vcombat.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\video21.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\videosaa.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\vlc.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\vlc34010.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\voyager.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\vpoker.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\vroulet.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\wildpkr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\winbingo.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\wms.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\xtom3d.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\xyonix.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\yuvomz80.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\z80ne.cpp">
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

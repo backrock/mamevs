@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\upl">
+      <UniqueIdentifier>{F63D80EE-E2A0-0F93-8B26-48497768DB15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\upl\ninjakd2.h">
+      <Filter>src\mame\upl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\upl\nova2001.h">
+      <Filter>src\mame\upl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\upl\mouser.cpp">
+      <Filter>src\mame\upl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\upl\ninjakd2.cpp">
+      <Filter>src\mame\upl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\upl\ninjakd2_v.cpp">
+      <Filter>src\mame\upl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\upl\nova2001.cpp">
+      <Filter>src\mame\upl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\upl\nova2001_v.cpp">
+      <Filter>src\mame\upl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\upl\xxmissio.cpp">
+      <Filter>src\mame\upl</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

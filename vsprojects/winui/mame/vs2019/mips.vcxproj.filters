@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\mips">
+      <UniqueIdentifier>{DE7C83BE-4A3D-FFF4-1378-48727FF743D1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\mips\mips_rambo.h">
+      <Filter>src\mame\mips</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\mips\mips.cpp">
+      <Filter>src\mame\mips</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\mips\mips_rambo.cpp">
+      <Filter>src\mame\mips</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

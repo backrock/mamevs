@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\technos">
+      <UniqueIdentifier>{D95AAF28-C553-CE7A-EE85-B3FFDADDAD86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\technos\ddragon.h">
+      <Filter>src\mame\technos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\technos\ddragon3.h">
+      <Filter>src\mame\technos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\technos\xain.h">
+      <Filter>src\mame\technos</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\technos\battlane.cpp">
+      <Filter>src\mame\technos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\technos\blockout.cpp">
+      <Filter>src\mame\technos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\technos\bogeyman.cpp">
+      <Filter>src\mame\technos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\technos\chinagat.cpp">
+      <Filter>src\mame\technos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\technos\ddragon.cpp">
+      <Filter>src\mame\technos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\technos\ddragon3.cpp">
+      <Filter>src\mame\technos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\technos\ddragon3_v.cpp">
+      <Filter>src\mame\technos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\technos\ddragon_v.cpp">
+      <Filter>src\mame\technos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\technos\dogfgt.cpp">
+      <Filter>src\mame\technos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\technos\matmania.cpp">
+      <Filter>src\mame\technos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\technos\mystston.cpp">
+      <Filter>src\mame\technos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\technos\renegade.cpp">
+      <Filter>src\mame\technos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\technos\shadfrce.cpp">
+      <Filter>src\mame\technos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\technos\spdodgeb.cpp">
+      <Filter>src\mame\technos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\technos\ssozumo.cpp">
+      <Filter>src\mame\technos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\technos\tagteam.cpp">
+      <Filter>src\mame\technos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\technos\vball.cpp">
+      <Filter>src\mame\technos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\technos\wwfsstar.cpp">
+      <Filter>src\mame\technos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\technos\xain.cpp">
+      <Filter>src\mame\technos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\technos\xain_v.cpp">
+      <Filter>src\mame\technos</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

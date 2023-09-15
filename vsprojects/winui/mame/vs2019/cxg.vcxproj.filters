@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\cxg">
+      <UniqueIdentifier>{67F27FEE-5355-0F93-FCDA-4749E81CDB15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\cxg\ch2001.cpp">
+      <Filter>src\mame\cxg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cxg\dominator.cpp">
+      <Filter>src\mame\cxg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cxg\scptchess.cpp">
+      <Filter>src\mame\cxg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cxg\sphinx40.cpp">
+      <Filter>src\mame\cxg</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

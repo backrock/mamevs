@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\hec2hrp">
+      <UniqueIdentifier>{31CCD68C-1DC5-F5DE-46F7-DA63324FD5EA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\hec2hrp\hec2hrp.h">
+      <Filter>src\mame\hec2hrp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\hec2hrp\hec2hrp.cpp">
+      <Filter>src\mame\hec2hrp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hec2hrp\hec2hrp_m.cpp">
+      <Filter>src\mame\hec2hrp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hec2hrp\hec2hrp_v.cpp">
+      <Filter>src\mame\hec2hrp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

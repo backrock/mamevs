@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\apple">
+      <UniqueIdentifier>{B7C81D8E-A396-1194-8C2A-82BA7897EDF8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\adbmodem.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\apple2common.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\apple2e.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\apple2video.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\apple3.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\awacs_macrisc.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\bandit.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\burgundy.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\cuda.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\dafb.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\dbdma.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\djmemc.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\egret.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\f108.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\heathrow.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\iosb.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\lisa.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\macadb.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\macrtc.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\macscsi.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\mactoolbox.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\rbv.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\sonora.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\v8.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\valkyrie.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\apple\vasp.h">
+      <Filter>src\mame\apple</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\adbmodem.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\apple1.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\apple2.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\apple2common.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\apple2e.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\apple2gs.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\apple2video.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\apple3.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\apple3_m.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\apple3_v.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\awacs_macrisc.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\bandit.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\burgundy.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\cuda.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\dafb.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\dbdma.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\djmemc.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\egret.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\f108.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\heathrow.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\imacg3.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\iosb.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\iphone2g.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\lisa.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\lisa_m.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\lwriter.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\mac128.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\macadb.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\macii.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\maciici.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\maciifx.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\maciivx.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\maclc.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\maclc3.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\macpdm.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\macprtb.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\macpwrbk030.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\macquadra605.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\macquadra630.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\macquadra700.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\macquadra800.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\macrtc.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\macscsi.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\mactoolbox.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\newton.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\pippin.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\powermacg3.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\rbv.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\sonora.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\superga2.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\tk2000.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\v8.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\valkyrie.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\apple\vasp.cpp">
+      <Filter>src\mame\apple</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

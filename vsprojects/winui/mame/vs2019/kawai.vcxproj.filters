@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\kawai">
+      <UniqueIdentifier>{72A0CA8E-5E6E-BE94-4702-2FBB336F9AF9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\kawai\mb63h158.h">
+      <Filter>src\mame\kawai</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\kawai\acr20.cpp">
+      <Filter>src\mame\kawai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\kawai\k1.cpp">
+      <Filter>src\mame\kawai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\kawai\k4.cpp">
+      <Filter>src\mame\kawai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\kawai\k5.cpp">
+      <Filter>src\mame\kawai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\kawai\ksp10.cpp">
+      <Filter>src\mame\kawai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\kawai\mb63h158.cpp">
+      <Filter>src\mame\kawai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\kawai\r100.cpp">
+      <Filter>src\mame\kawai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\kawai\sx240.cpp">
+      <Filter>src\mame\kawai</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

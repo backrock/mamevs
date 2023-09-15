@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2D6A436D-99CB-207B-2239-672D8E99573A}</ProjectGuid>
+    <RootNamespace>atari</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.10240.0</WindowsTargetPlatformMinVersion>
+    <Keyword>Win32Proj</Keyword>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\..\vs2019\bin\x32\Debug\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x32\Debug\atari\</IntDir>
+    <TargetName>atari</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\..\..\vs2019\bin\x64\Debug\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x64\Debug\atari\</IntDir>
+    <TargetName>atari</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\..\vs2019\bin\x32\Release\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x32\Release\atari\</IntDir>
+    <TargetName>atari</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\..\..\vs2019\bin\x64\Release\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x64\Release\atari\</IntDir>
+    <TargetName>atari</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)atari.pdb</ProgramDataBaseFileName>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)atari.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)atari.pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)atari.pdb</ProgramDataBaseFileName>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)atari.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)atari.pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)atari.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)atari.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\antic.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\asic65.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\asteroid.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atari400.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarifb.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarifdc.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarig1.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarig42.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarigen.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarigt.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarigx2.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarijsa.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarimo.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarirle.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarisac.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atariscom.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\ataristb.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarist_v.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarisy1.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarisy2.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarivad.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarixga.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\avalnche.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\badlands.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\bsktball.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\bwidow.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\bzone.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\canyon_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\centiped.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\copsnrob_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\dragrace_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\firetrk_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\gtia.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\harddriv.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\irobot.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\jagblit.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\jaguar.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\jag_blitter.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\lynx.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\maria.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\mathbox.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\nitedrvr_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\nl_breakout.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\nl_destroyr.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\nl_flyball.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\nl_gtrak10.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\nl_pong.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\nl_pongdoubles.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\nl_rebound.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\nl_stuntcyc.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\nl_tank.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\orbit_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\pofo_kbd.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\poolshrk_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\redbaron.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\skydiver_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\skyraid_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\slapstic.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\sprint2_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\sprint4_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\sprint8_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\starshp1_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\starwars.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\stkbd.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\stmmu.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\stvideo.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\subs_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\tank8_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\tia.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\triplhnt_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\videopin_a.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\a2600.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\a7800.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\akkaarrh.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\antic.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\arcadecl.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\asic65.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\asteroid.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\asteroid_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\asteroid_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atari400.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atari400_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atari400_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarifb.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarifb_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarifb_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarifb_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarifdc.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarig1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarig1_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarig42.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarig42_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarigen.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarigt.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarigt_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarigx2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarigx2_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarijsa.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarimo.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarirle.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarisac.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atariscom.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarist.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\ataristb.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarist_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarisy1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarisy1_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarisy2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarisy2_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarisy4.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarittl.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarivad.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarixga.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atetris.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\avalnche.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\avalnche_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\badlands.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\badlandsbl.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\badlands_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\badlands_ms.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\badlands_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\bartop52.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\batman.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\beathead.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\blstroid.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\boxer.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\bsktball.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\bsktball_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\bsktball_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\bsktball_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\bwidow.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\bwidow_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\bzone.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\bzone_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\canyon.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\canyon_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\cball.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\ccastles.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\centiped.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\centiped_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\cloak.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\cloud9.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\cmmb.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\cops.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\copsnrob.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\copsnrob_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\cyberbal.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\cybstorm.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\destroyr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\dragrace.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\dragrace_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\eprom.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\firefox.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\firetrk.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\firetrk_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\flyball.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\foodf.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\gauntlet.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\gtia.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\gumrally.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\harddriv.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\harddriv_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\harddriv_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\harddriv_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\hitparade.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\irobot.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\irobot_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\irobot_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\jaguar.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\jaguar_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\jaguar_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\jag_blitter.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\jedi.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\klax.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\liberatr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\lynx.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\lynx_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\marblmd2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\maria.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\mathbox.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\maxaflex.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\mediagx.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\metalmx.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\mgolf.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\mhavoc.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\missile.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nitedrvr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nitedrvr_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nl_breakout.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nl_destroyr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nl_flyball.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nl_gtrak10.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nl_pong.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nl_pongdoubles.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nl_rebound.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nl_stuntcyc.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nl_tank.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\offtwall.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\orbit.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\orbit_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\pofo.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\pofo_kbd.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\pong.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\poolshrk.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\poolshrk_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\quantum.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\quizshow.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\rampart.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\redbaron.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\relief.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\runaway.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\sbrkout.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\shuuz.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\skullxbo.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\skydiver.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\skydiver_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\skyraid.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\skyraid_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\slapstic.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\sprint2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\sprint2_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\sprint4.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\sprint4_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\sprint8.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\sprint8_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\starshp1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\starshp1_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\starwars.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\starwars_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\stkbd.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\stmmu.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\stvideo.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\subs.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\subs_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\tank8.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\tank8_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\tempest.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\thunderj.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\tia.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\tomcat.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\toobin.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\tourtabl.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\triplhnt.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\triplhnt_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\tunhunt.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\ultratnk.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\videopin.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\videopin_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\vindictr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\wolfpack.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\xybots.cpp">
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\src\mame\atari\jagblit.ipp" />
+    <None Include="..\..\..\..\..\src\mame\atari\jagobj.ipp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

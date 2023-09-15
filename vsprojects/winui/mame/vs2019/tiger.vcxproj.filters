@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\tiger">
+      <UniqueIdentifier>{809C718F-6C6A-6595-55FE-D5BB416B41FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\tiger\gamecom.h">
+      <Filter>src\mame\tiger</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\tiger\bingobear.cpp">
+      <Filter>src\mame\tiger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tiger\gamecom.cpp">
+      <Filter>src\mame\tiger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tiger\gamecom_m.cpp">
+      <Filter>src\mame\tiger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tiger\gamecom_v.cpp">
+      <Filter>src\mame\tiger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tiger\k28.cpp">
+      <Filter>src\mame\tiger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tiger\k28m2.cpp">
+      <Filter>src\mame\tiger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tiger\pylo.cpp">
+      <Filter>src\mame\tiger</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

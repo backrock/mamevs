@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\miltonbradley">
+      <UniqueIdentifier>{1B5CFADE-0756-2331-F0C2-B941DC5B899D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\miltonbradley\vectrex.h">
+      <Filter>src\mame\miltonbradley</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\miltonbradley\microvsn.cpp">
+      <Filter>src\mame\miltonbradley</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\miltonbradley\milton6805.cpp">
+      <Filter>src\mame\miltonbradley</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\miltonbradley\vectrex.cpp">
+      <Filter>src\mame\miltonbradley</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\miltonbradley\vectrex_m.cpp">
+      <Filter>src\mame\miltonbradley</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\miltonbradley\vectrex_v.cpp">
+      <Filter>src\mame\miltonbradley</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\facit">
+      <UniqueIdentifier>{ECD16F8E-D89F-6394-C133-D4BAADA03FF9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\facit\f4431_kbd.h">
+      <Filter>src\mame\facit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\facit\f4431.cpp">
+      <Filter>src\mame\facit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\facit\f4431_kbd.cpp">
+      <Filter>src\mame\facit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\facit\facit4440.cpp">
+      <Filter>src\mame\facit</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

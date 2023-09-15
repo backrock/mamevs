@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\poly88">
+      <UniqueIdentifier>{B928C074-25B4-2D39-2EC5-B02D9ACF8939}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\poly88\poly88.h">
+      <Filter>src\mame\poly88</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\poly88\poly88.cpp">
+      <Filter>src\mame\poly88</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\poly88\poly88_m.cpp">
+      <Filter>src\mame\poly88</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

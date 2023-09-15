@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\pacific">
+      <UniqueIdentifier>{D42E72EB-C027-913D-E959-76C2D5B17049}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\pacific\mrflea.cpp">
+      <Filter>src\mame\pacific</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pacific\thief.cpp">
+      <Filter>src\mame\pacific</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

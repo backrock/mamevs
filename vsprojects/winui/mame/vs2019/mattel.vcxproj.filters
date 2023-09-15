@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\mattel">
+      <UniqueIdentifier>{8CABC76C-F836-3531-0148-B8256D529131}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\mattel\aquarius.h">
+      <Filter>src\mame\mattel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\mattel\intv.h">
+      <Filter>src\mame\mattel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\mattel\stic.h">
+      <Filter>src\mame\mattel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\mattel\aquarius.cpp">
+      <Filter>src\mame\mattel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\mattel\aquarius_v.cpp">
+      <Filter>src\mame\mattel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\mattel\chess.cpp">
+      <Filter>src\mame\mattel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\mattel\intv.cpp">
+      <Filter>src\mame\mattel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\mattel\intv_m.cpp">
+      <Filter>src\mame\mattel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\mattel\intv_v.cpp">
+      <Filter>src\mame\mattel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\mattel\juicebox.cpp">
+      <Filter>src\mame\mattel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\mattel\stic.cpp">
+      <Filter>src\mame\mattel</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

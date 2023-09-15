@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\msx">
+      <UniqueIdentifier>{5D1C80EE-497F-0F93-F204-4849DE46DB15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\msx\msx.h">
+      <Filter>src\mame\msx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\msx\msx_kanji12.h">
+      <Filter>src\mame\msx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\msx\msx_keyboard.h">
+      <Filter>src\mame\msx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\msx\msx_matsushita.h">
+      <Filter>src\mame\msx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\msx\msx_s1985.h">
+      <Filter>src\mame\msx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\msx\msx_switched.h">
+      <Filter>src\mame\msx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\msx\msx_systemflags.h">
+      <Filter>src\mame\msx</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\msx\big10.cpp">
+      <Filter>src\mame\msx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\msx\forte2.cpp">
+      <Filter>src\mame\msx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\msx\msx.cpp">
+      <Filter>src\mame\msx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\msx\msx1.cpp">
+      <Filter>src\mame\msx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\msx\msx1_bruc100.cpp">
+      <Filter>src\mame\msx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\msx\msx1_v9938.cpp">
+      <Filter>src\mame\msx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\msx\msx2.cpp">
+      <Filter>src\mame\msx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\msx\msx_kanji12.cpp">
+      <Filter>src\mame\msx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\msx\msx_keyboard.cpp">
+      <Filter>src\mame\msx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\msx\msx_matsushita.cpp">
+      <Filter>src\mame\msx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\msx\msx_s1985.cpp">
+      <Filter>src\mame\msx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\msx\msx_systemflags.cpp">
+      <Filter>src\mame\msx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\msx\pengadvb.cpp">
+      <Filter>src\mame\msx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\msx\sangho.cpp">
+      <Filter>src\mame\msx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\msx\sfkick.cpp">
+      <Filter>src\mame\msx</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

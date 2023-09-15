@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\sinclair">
+      <UniqueIdentifier>{5AC38E9F-C6D9-8C35-0F51-18577BA65DBD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\sinclair\atm.h">
+      <Filter>src\mame\sinclair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sinclair\beta_m.h">
+      <Filter>src\mame\sinclair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sinclair\glukrs.h">
+      <Filter>src\mame\sinclair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sinclair\qimi.h">
+      <Filter>src\mame\sinclair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sinclair\spec128.h">
+      <Filter>src\mame\sinclair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sinclair\specpls3.h">
+      <Filter>src\mame\sinclair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sinclair\spectrum.h">
+      <Filter>src\mame\sinclair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sinclair\spec_snqk.h">
+      <Filter>src\mame\sinclair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sinclair\timex.h">
+      <Filter>src\mame\sinclair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sinclair\tsconf.h">
+      <Filter>src\mame\sinclair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sinclair\tsconfdma.h">
+      <Filter>src\mame\sinclair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sinclair\zx.h">
+      <Filter>src\mame\sinclair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sinclair\zx8301.h">
+      <Filter>src\mame\sinclair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sinclair\zx8302.h">
+      <Filter>src\mame\sinclair</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\atm.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\beta_m.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\elwro800.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\glukrs.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\pentagon.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\pentevo.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\qimi.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\ql.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\scorpion.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\spec128.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\specpls3.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\spectrum.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\spectrum_v.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\spec_snqk.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\sprinter.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\timex.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\timex_v.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\tsconf.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\tsconfdma.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\tsconf_m.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\zx.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\zx8301.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\zx8302.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\zx_m.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sinclair\zx_v.cpp">
+      <Filter>src\mame\sinclair</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

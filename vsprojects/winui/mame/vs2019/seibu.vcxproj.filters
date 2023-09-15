@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\seibu">
+      <UniqueIdentifier>{9D5A5D8F-8928-5195-72BC-C1BB5E292DFA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\src\mame\seibu\seibucop_cmd.ipp">
+      <Filter>src\mame\seibu</Filter>
+    </None>
+    <None Include="..\..\..\..\..\src\mame\seibu\seibucop_dma.ipp">
+      <Filter>src\mame\seibu</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\airraid_dev.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\bloodbro.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\cabal.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\darkmist.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\dcon.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\deadang.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\dynduke.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\kncljoe.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\legionna.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\mustache.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\r2crypt.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\raiden.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\raiden2.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\seibucop.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\seibuspi.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\seibuspi_m.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\seibu_crtc.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\seicopbl.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\stfight.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\stfight_dev.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\t5182.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\toki.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seibu\wiz.h">
+      <Filter>src\mame\seibu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\airraid.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\airraid_dev.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\banprestoms.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\bloodbro.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\bloodbro_ms.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\bloodbro_v.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\cabal.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\cabal_v.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\darkmist.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\darkmist_v.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\dcon.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\dcon_v.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\deadang.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\deadang_v.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\dynduke.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\dynduke_v.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\feversoc.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\goal92.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\goodejan.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\kncljoe.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\kncljoe_v.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\legionna.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\legionna_v.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\metlfrzr.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\mustache.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\mustache_v.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\panicr.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\r2crypt.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\r2dx_v33.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\raiden.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\raiden2.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\raiden2_v.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\raiden_ms.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\raiden_v.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\seibucats.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\seibucop.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\seibuspi.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\seibuspi_m.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\seibuspi_v.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\seibu_crtc.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\seicopbl.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\seicupbl.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\sengokmj.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\stfight.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\stfight_dev.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\stfight_m.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\t5182.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\toki.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\toki_ms.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\toki_v.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\wiz.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seibu\wiz_v.cpp">
+      <Filter>src\mame\seibu</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

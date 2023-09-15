@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\neogeo">
+      <UniqueIdentifier>{0241626F-6ECC-CF33-77DD-5228E3E72B34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\neogeo\neogeo.h">
+      <Filter>src\mame\neogeo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\neogeo\neogeo_spr.h">
+      <Filter>src\mame\neogeo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\neogeo\ng_memcard.h">
+      <Filter>src\mame\neogeo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\neogeo\midas.cpp">
+      <Filter>src\mame\neogeo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\neogeo\neogeo.cpp">
+      <Filter>src\mame\neogeo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\neogeo\neogeocd.cpp">
+      <Filter>src\mame\neogeo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\neogeo\neogeo_spr.cpp">
+      <Filter>src\mame\neogeo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\neogeo\neogeo_v.cpp">
+      <Filter>src\mame\neogeo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\neogeo\neopcb.cpp">
+      <Filter>src\mame\neogeo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\neogeo\ng_memcard.cpp">
+      <Filter>src\mame\neogeo</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

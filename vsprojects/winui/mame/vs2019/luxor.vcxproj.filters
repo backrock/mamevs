@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\luxor">
+      <UniqueIdentifier>{9FB6E78E-8B84-DB94-7418-4CBB6085B7F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\luxor\abc1600.h">
+      <Filter>src\mame\luxor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\luxor\abc1600mac.h">
+      <Filter>src\mame\luxor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\luxor\abc1600_v.h">
+      <Filter>src\mame\luxor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\luxor\abc80.h">
+      <Filter>src\mame\luxor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\luxor\abc80kb.h">
+      <Filter>src\mame\luxor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\luxor\abc80x.h">
+      <Filter>src\mame\luxor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\luxor\abc1600.cpp">
+      <Filter>src\mame\luxor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\luxor\abc1600mac.cpp">
+      <Filter>src\mame\luxor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\luxor\abc1600_v.cpp">
+      <Filter>src\mame\luxor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\luxor\abc80.cpp">
+      <Filter>src\mame\luxor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\luxor\abc80kb.cpp">
+      <Filter>src\mame\luxor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\luxor\abc80x.cpp">
+      <Filter>src\mame\luxor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\luxor\abc80_v.cpp">
+      <Filter>src\mame\luxor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\luxor\ds90.cpp">
+      <Filter>src\mame\luxor</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

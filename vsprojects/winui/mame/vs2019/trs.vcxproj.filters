@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\trs">
+      <UniqueIdentifier>{FE3980EE-EA9C-0F93-9322-48497F64DB15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\trs\6883sam.h">
+      <Filter>src\mame\trs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\trs\coco.h">
+      <Filter>src\mame\trs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\trs\coco12.h">
+      <Filter>src\mame\trs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\trs\coco3.h">
+      <Filter>src\mame\trs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\trs\coco_vhd.h">
+      <Filter>src\mame\trs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\trs\dgn_beta.h">
+      <Filter>src\mame\trs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\trs\dragon.h">
+      <Filter>src\mame\trs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\trs\gime.h">
+      <Filter>src\mame\trs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\trs\tandy2k.h">
+      <Filter>src\mame\trs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\trs\tandy2kb.h">
+      <Filter>src\mame\trs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\trs\trs80.h">
+      <Filter>src\mame\trs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\trs\trs80m2.h">
+      <Filter>src\mame\trs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\trs\trs80m2kb.h">
+      <Filter>src\mame\trs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\trs\trs80m3.h">
+      <Filter>src\mame\trs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\6883sam.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\agvision.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\coco.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\coco12.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\coco12_m.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\coco3.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\coco3_m.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\coco_vhd.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\dgnalpha.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\dgn_beta.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\dgn_beta_m.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\dgn_beta_v.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\dragon.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\gime.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\lnw80.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\max80.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\mc10.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\meritum.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\radionic.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\tandy2k.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\tandy2kb.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\trs80.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\trs80dt1.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\trs80m2.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\trs80m2kb.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\trs80m3.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\trs80m3_m.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\trs80m3_v.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\trs80_m.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\trs80_v.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\trs\vis.cpp">
+      <Filter>src\mame\trs</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

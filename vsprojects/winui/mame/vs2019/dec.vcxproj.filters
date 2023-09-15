@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\dec">
+      <UniqueIdentifier>{31F47FEE-1D57-0F93-C6DC-4749B21EDB15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\dec\dc305.h">
+      <Filter>src\mame\dec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dec\decioga.h">
+      <Filter>src\mame\dec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dec\dec_lk201.h">
+      <Filter>src\mame\dec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dec\pdp1.h">
+      <Filter>src\mame\dec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dec\rx01.h">
+      <Filter>src\mame\dec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dec\vtvideo.h">
+      <Filter>src\mame\dec</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\dc305.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\dct11em.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\decioga.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\decmate2.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\decstation.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\dectalk.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\decwritr.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\dec_lk201.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\dtc03.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\jensen.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\pdp1.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\pdp11.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\pdp1_v.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\rainbow.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\rx01.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\vax11.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\vk100.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\vt100.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\vt220.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\vt240.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\vt320.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\vt52.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\vt520.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\vt62.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dec\vtvideo.cpp">
+      <Filter>src\mame\dec</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

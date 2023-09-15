@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\namco">
+      <UniqueIdentifier>{B3BF008F-9F8D-F494-8821-65BB748ED0F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\20pacgal.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\bosco.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\c117.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\digdug.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\galaga.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\gaplus.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\geebee.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\mappy.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco06.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco50.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco51.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco52.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco53.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco54.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco62.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco65.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco68.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcoio.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcoio_gearbox.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcomcu.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcona1.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namconb1.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcos1.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcos10_exio.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcos2.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcos21_3d.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcos21_dsp.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcos21_dsp_c67.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcos22.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcos2_roz.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcos2_sprite.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcos86.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco_c116.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco_c123tmap.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco_c139.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco_c148.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco_c169roz.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco_c45road.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco_c67.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco_settings.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\nl_tankbatt.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\ns10crypt.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\ns11prot.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\polepos.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\polepos_a.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\rallyx.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\starfield_05xx.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\tceptor.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\turrett.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\warpwarp.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\warpwarp_a.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\xevious.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\ygv608.h">
+      <Filter>src\mame\namco</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\20pacgal.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\20pacgal_v.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\30test.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\baraduke.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\bosco.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\c117.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\cgang.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\cswat.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\dangbar.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\digdug.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\dkmb.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\gal3.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\galaga.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\galaga_a.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\galaga_v.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\gaplus.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\gaplus_m.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\gaplus_v.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\geebee.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\kungfur.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\mappy.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\mappy_v.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco06.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco50.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco51.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco52.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco53.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco54.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco62.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco65.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco68.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcofl.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcoio.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcoio_gearbox.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcomcu.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcona1.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcona1_v.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namconb1.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namconb1_v.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcond1.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcops2.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos1.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos10.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos10_exio.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos11.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos12.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos1b.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos1_m.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos1_v.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos2.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos21.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos21_3d.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos21_c67.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos21_de.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos21_dsp.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos21_dsp_c67.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos22.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos22_v.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos23.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos2_m.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos2_roz.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos2_sprite.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos2_v.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos86.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos86_v.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco_c116.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco_c123tmap.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco_c139.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco_c148.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco_c169roz.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco_c45road.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco_c67.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco_settings.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\nl_tankbatt.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\ns10crypt.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\ns11prot.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\pacland.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\polepos.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\polepos_a.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\polepos_v.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\quickncrash.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\rallyx.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\rallyx_v.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\rbowlorama.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\shootaway2.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\skykid.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\starfield_05xx.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\sweetland.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\sweetland4.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\tankbatt.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\tceptor.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\tceptor_v.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\toypop.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\turrett.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\turrett_a.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\turrett_v.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\wacky_gator.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\warpwarp.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\warpwarp_a.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\warpwarp_v.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\xevious.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\xevious_m.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\ygv608.cpp">
+      <Filter>src\mame\namco</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

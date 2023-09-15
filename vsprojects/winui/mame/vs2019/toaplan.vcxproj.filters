@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\toaplan">
+      <UniqueIdentifier>{D418E33F-C011-0292-E943-E716D59BE19D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\toaplan\gp9001.h">
+      <Filter>src\mame\toaplan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\toaplan\slapfght.h">
+      <Filter>src\mame\toaplan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\toaplan\toaplan1.h">
+      <Filter>src\mame\toaplan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\toaplan\toaplan2.h">
+      <Filter>src\mame\toaplan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\toaplan\toaplan_scu.h">
+      <Filter>src\mame\toaplan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\toaplan\toaplipt.h">
+      <Filter>src\mame\toaplan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\toaplan\twincobr.h">
+      <Filter>src\mame\toaplan</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\toaplan\gp9001.cpp">
+      <Filter>src\mame\toaplan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\toaplan\mjsister.cpp">
+      <Filter>src\mame\toaplan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\toaplan\slapfght.cpp">
+      <Filter>src\mame\toaplan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\toaplan\slapfght_m.cpp">
+      <Filter>src\mame\toaplan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\toaplan\slapfght_ms.cpp">
+      <Filter>src\mame\toaplan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\toaplan\slapfght_v.cpp">
+      <Filter>src\mame\toaplan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\toaplan\toaplan1.cpp">
+      <Filter>src\mame\toaplan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\toaplan\toaplan1_m.cpp">
+      <Filter>src\mame\toaplan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\toaplan\toaplan1_v.cpp">
+      <Filter>src\mame\toaplan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\toaplan\toaplan2.cpp">
+      <Filter>src\mame\toaplan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\toaplan\toaplan2_v.cpp">
+      <Filter>src\mame\toaplan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\toaplan\toaplan_scu.cpp">
+      <Filter>src\mame\toaplan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\toaplan\twincobr.cpp">
+      <Filter>src\mame\toaplan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\toaplan\twincobr_m.cpp">
+      <Filter>src\mame\toaplan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\toaplan\twincobr_v.cpp">
+      <Filter>src\mame\toaplan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\toaplan\wardner.cpp">
+      <Filter>src\mame\toaplan</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

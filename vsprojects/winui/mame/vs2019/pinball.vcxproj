@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9EDEA935-0A4B-6530-D33E-FD8D3F6A8798}</ProjectGuid>
+    <RootNamespace>pinball</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.10240.0</WindowsTargetPlatformMinVersion>
+    <Keyword>Win32Proj</Keyword>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\..\vs2019\bin\x32\Debug\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x32\Debug\pinball\</IntDir>
+    <TargetName>pinball</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\..\..\vs2019\bin\x64\Debug\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x64\Debug\pinball\</IntDir>
+    <TargetName>pinball</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\..\vs2019\bin\x32\Release\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x32\Release\pinball\</IntDir>
+    <TargetName>pinball</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\..\..\vs2019\bin\x64\Release\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x64\Release\pinball\</IntDir>
+    <TargetName>pinball</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)pinball.pdb</ProgramDataBaseFileName>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)pinball.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)pinball.pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)pinball.pdb</ProgramDataBaseFileName>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)pinball.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)pinball.pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)pinball.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)pinball.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\decodmd1.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\decodmd2.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\decodmd3.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\decopincpu.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\genpin.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\pinsnd88.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\s11.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\wpc.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\wpcsnd.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\wpc_dmd.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\wpc_dot.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\wpc_lamp.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\wpc_out.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\wpc_pic.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\wpc_shift.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\allied.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\alvg.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\atari_4x4.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\atari_s1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\atari_s2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\barni.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\bingo.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\by17.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\by35.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\by6803.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\by68701.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\byvid.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\capcom.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\decodmd1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\decodmd2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\decodmd3.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\decopincpu.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\de_2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\de_3.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\flicker.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\g627.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\genpin.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\gp_1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\gp_2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\gts1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\gts3.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\gts3a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\gts80.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\gts80a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\gts80b.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\hankin.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\icecold.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\idsa.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\inder.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\inderp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\jeutel.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\joctronic.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\jp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\jvh.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\kissproto.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\lancelot.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\lckydraw.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\ltd.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\macp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\mephistp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\micropin.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\missamer.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\mrgame.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\newcanasta.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\nsm.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\peyper.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\pinsnd88.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\play_1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\play_2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\play_3.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\recel.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\rowamet.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\s11.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\s11a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\s11b.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\s11c.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\s3.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\s4.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\s6.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\s7.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\s8.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\s9.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\sam.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\sleic.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\spectra.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\spike.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\spinb.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\spirit76.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\stargame.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\st_mp100.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\st_mp200.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\supstarf.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\taito.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\techno.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\vd.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\whitestar.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wico.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wms_shuffle.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpcsnd.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_95.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_an.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_dcs.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_dmd.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_dot.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_flip1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_flip2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_lamp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_out.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_pic.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_s.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_shift.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\zac_1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\zac_2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\zac_proto.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\zpinball.cpp">
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

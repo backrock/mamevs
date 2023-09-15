@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\hp">
+      <UniqueIdentifier>{9DB24945-0968-C23A-925C-BC11FE10B93E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\hp\hp2640_tape.h">
+      <Filter>src\mame\hp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\hp\hp48.h">
+      <Filter>src\mame\hp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\hp\hp48_port.h">
+      <Filter>src\mame\hp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\hp\hp80_optrom.h">
+      <Filter>src\mame\hp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\hp\hp9825_optrom.h">
+      <Filter>src\mame\hp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\hp\hp9825_tape.h">
+      <Filter>src\mame\hp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\hp\hp9845.h">
+      <Filter>src\mame\hp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\hp\hp9845_optrom.h">
+      <Filter>src\mame\hp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\hp\hp9845_printer.h">
+      <Filter>src\mame\hp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\hp\hp98x5_io_sys.h">
+      <Filter>src\mame\hp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\hp\hp_ipc_optrom.h">
+      <Filter>src\mame\hp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp16500.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp2100.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp2620.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp2640.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp2640_tape.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp3478a.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp48.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp48_m.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp48_port.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp48_v.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp49gp.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp64k.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp700.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp7596a.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp80.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp80_optrom.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp95lx.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp9825.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp9825_optrom.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp9825_tape.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp9845.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp9845_optrom.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp9845_printer.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp98x5_io_sys.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp9k.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp9k_3xx.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hpz80unk.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp_ipc.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\hp_ipc_optrom.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hp\jornada.cpp">
+      <Filter>src\mame\hp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

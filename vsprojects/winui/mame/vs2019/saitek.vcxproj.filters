@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\saitek">
+      <UniqueIdentifier>{2697C07A-9222-2E3F-9B33-B133073E8A3F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\saitek\stratos.h">
+      <Filter>src\mame\saitek</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\saitek\ccompan.cpp">
+      <Filter>src\mame\saitek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\saitek\chesstrv.cpp">
+      <Filter>src\mame\saitek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\saitek\corona.cpp">
+      <Filter>src\mame\saitek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\saitek\cp2000.cpp">
+      <Filter>src\mame\saitek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\saitek\delta1.cpp">
+      <Filter>src\mame\saitek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\saitek\exchess.cpp">
+      <Filter>src\mame\saitek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\saitek\intchess.cpp">
+      <Filter>src\mame\saitek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\saitek\leonardo.cpp">
+      <Filter>src\mame\saitek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\saitek\mark5.cpp">
+      <Filter>src\mame\saitek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\saitek\minichess.cpp">
+      <Filter>src\mame\saitek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\saitek\prschess.cpp">
+      <Filter>src\mame\saitek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\saitek\renaissance.cpp">
+      <Filter>src\mame\saitek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\saitek\risc2500.cpp">
+      <Filter>src\mame\saitek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\saitek\schess.cpp">
+      <Filter>src\mame\saitek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\saitek\simultano.cpp">
+      <Filter>src\mame\saitek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\saitek\ssystem3.cpp">
+      <Filter>src\mame\saitek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\saitek\stratos.cpp">
+      <Filter>src\mame\saitek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\saitek\superstar.cpp">
+      <Filter>src\mame\saitek</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

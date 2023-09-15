@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\seta">
+      <UniqueIdentifier>{92B686BE-FE76-02F5-C7B1-4B72333147D1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\seta\seta2.h">
+      <Filter>src\mame\seta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seta\speedatk.h">
+      <Filter>src\mame\seta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seta\srmp2.h">
+      <Filter>src\mame\seta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seta\ssv.h">
+      <Filter>src\mame\seta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seta\st0016.h">
+      <Filter>src\mame\seta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seta\st0020.h">
+      <Filter>src\mame\seta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\seta\x1_012.h">
+      <Filter>src\mame\seta</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\albazc.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\downtown.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\hanaawas.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\jclub2.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\kiwame.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\macs.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\seta.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\seta2.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\seta2_v.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\simple_st0016.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\speedatk.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\speedatk_v.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\speglsht.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\srmp2.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\srmp2_v.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\srmp5.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\srmp6.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\ssv.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\ssv_v.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\st0016.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\st0020.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\thedealr.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\seta\x1_012.cpp">
+      <Filter>src\mame\seta</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\wyse">
+      <UniqueIdentifier>{0D3D89BE-79FD-04F5-4238-4E72AEB749D1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\wyse\wy50kb.h">
+      <Filter>src\mame\wyse</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\wyse\wy100.cpp">
+      <Filter>src\mame\wyse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\wyse\wy150.cpp">
+      <Filter>src\mame\wyse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\wyse\wy30p.cpp">
+      <Filter>src\mame\wyse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\wyse\wy50.cpp">
+      <Filter>src\mame\wyse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\wyse\wy50kb.cpp">
+      <Filter>src\mame\wyse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\wyse\wy55.cpp">
+      <Filter>src\mame\wyse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\wyse\wy60.cpp">
+      <Filter>src\mame\wyse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\wyse\wy85.cpp">
+      <Filter>src\mame\wyse</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

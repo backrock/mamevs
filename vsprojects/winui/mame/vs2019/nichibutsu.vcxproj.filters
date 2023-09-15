@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\nichibutsu">
+      <UniqueIdentifier>{438140FD-AFE2-1D0B-3850-64BDA4B054CA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\nichibutsu\armedf.h">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nichibutsu\cclimber.h">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nichibutsu\galivan.h">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nichibutsu\gomoku_a.h">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nichibutsu\nb1412m2.h">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nichibutsu\nb1413m3.h">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nichibutsu\nb1414m4.h">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nichibutsu\nbmj8688.h">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nichibutsu\nbmj8891.h">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nichibutsu\nbmj8900.h">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nichibutsu\nbmj8991.h">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nichibutsu\nbmj9195.h">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nichibutsu\nichisnd.h">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nichibutsu\niyanpai.h">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nichibutsu\tubep.h">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nichibutsu\wiping_a.h">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\armedf.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\armedf_v.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\cclimber.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\cclimber_m.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\cclimber_v.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\clshroad.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\cop01.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\dacholer.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\galivan.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\galivan_v.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\gomoku.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\gomoku_a.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\hrdvd.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\hyhoo.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\jangou.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\magmax.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\myvision.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\nb1412m2.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\nb1413m3.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\nb1414m4.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\nbmj8688.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\nbmj8688_v.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\nbmj8891.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\nbmj8891_v.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\nbmj8900.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\nbmj8900_v.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\nbmj8991.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\nbmj8991_v.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\nbmj9195.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\nbmj9195_v.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\nichild.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\nichisnd.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\nightgal.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\niyanpai.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\niyanpai_v.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\pastelg.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\seicross.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\terracre.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\tubep.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\tubep_v.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\wiping.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nichibutsu\wiping_a.cpp">
+      <Filter>src\mame\nichibutsu</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

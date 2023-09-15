@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\ddr">
+      <UniqueIdentifier>{1FF47FEE-0B57-0F93-B4DC-4749A01EDB15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\ddr\huebler.h">
+      <Filter>src\mame\ddr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ddr\k7659kb.h">
+      <Filter>src\mame\ddr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ddr\kc.h">
+      <Filter>src\mame\ddr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ddr\kc_keyb.h">
+      <Filter>src\mame\ddr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ddr\polyplay.h">
+      <Filter>src\mame\ddr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\ac1.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\bcs3.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\c80.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\chessmst.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\chessmstdm.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\huebler.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\jtc.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\k7659kb.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\kc.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\kc_keyb.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\kc_m.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\kramermc.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\lc80.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\llc1.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\llc2.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\mc8020.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\mc8030.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\nanos.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\pcm.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\poly880.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\polyplay.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\polyplay_a.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\polyplay_v.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\sc2.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\slc1.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\sprachmg.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ddr\vcs80.cpp">
+      <Filter>src\mame\ddr</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\ti">
+      <UniqueIdentifier>{22B44945-8E69-C23A-175E-BC118312B93E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\ti\733_asr.h">
+      <Filter>src\mame\ti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ti\911_chr.h">
+      <Filter>src\mame\ti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ti\911_key.h">
+      <Filter>src\mame\ti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ti\911_vdt.h">
+      <Filter>src\mame\ti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ti\avigo.h">
+      <Filter>src\mame\ti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ti\ti85.h">
+      <Filter>src\mame\ti</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\733_asr.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\911_vdt.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\avigo.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\avigo_v.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\cc40.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\evmbug.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\exelv.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\geneve.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\snspell.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\snspellc.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\spellb.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\ti74.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\ti85.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\ti85_m.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\ti85_v.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\ti89.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\ti931.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\ti990_10.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\ti990_4.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\ti99_2.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\ti99_4p.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\ti99_4x.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\ti99_8.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ti\tm990189.cpp">
+      <Filter>src\mame\ti</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\appliedconcepts">
+      <UniqueIdentifier>{C37C3D4D-AFA1-8CCD-D8EC-715DC4708BEB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\appliedconcepts\boris.cpp">
+      <Filter>src\mame\appliedconcepts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\appliedconcepts\borisdpl.cpp">
+      <Filter>src\mame\appliedconcepts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\appliedconcepts\ggm.cpp">
+      <Filter>src\mame\appliedconcepts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\appliedconcepts\prodigy.cpp">
+      <Filter>src\mame\appliedconcepts</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

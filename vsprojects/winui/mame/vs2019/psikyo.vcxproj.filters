@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\psikyo">
+      <UniqueIdentifier>{A4B20675-103E-7439-194F-F72D8559D039}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\psikyo\psikyo.h">
+      <Filter>src\mame\psikyo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\psikyo\psikyo4.h">
+      <Filter>src\mame\psikyo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\psikyo\psikyosh.h">
+      <Filter>src\mame\psikyo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\psikyo\psikyo.cpp">
+      <Filter>src\mame\psikyo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\psikyo\psikyo4.cpp">
+      <Filter>src\mame\psikyo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\psikyo\psikyo4_v.cpp">
+      <Filter>src\mame\psikyo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\psikyo\psikyosh.cpp">
+      <Filter>src\mame\psikyo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\psikyo\psikyosh_v.cpp">
+      <Filter>src\mame\psikyo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\psikyo\psikyo_v.cpp">
+      <Filter>src\mame\psikyo</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

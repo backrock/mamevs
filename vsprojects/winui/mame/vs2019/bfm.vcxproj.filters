@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\bfm">
+      <UniqueIdentifier>{DAEB7FEE-C64E-0F93-6FD4-47495B16DB15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\bfm\bfm_ad5.h">
+      <Filter>src\mame\bfm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\bfm\bfm_adr2.h">
+      <Filter>src\mame\bfm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\bfm\bfm_bd1.h">
+      <Filter>src\mame\bfm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\bfm\bfm_bda.h">
+      <Filter>src\mame\bfm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\bfm\bfm_comn.h">
+      <Filter>src\mame\bfm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\bfm\bfm_dm01.h">
+      <Filter>src\mame\bfm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\bfm\bfm_sc4.h">
+      <Filter>src\mame\bfm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\bfm\bfm_sc45_helper.h">
+      <Filter>src\mame\bfm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\bfm\bfm_sc5.h">
+      <Filter>src\mame\bfm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\bfm\bfcobra.cpp">
+      <Filter>src\mame\bfm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\bfm\bfmsys83.cpp">
+      <Filter>src\mame\bfm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\bfm\bfmsys85.cpp">
+      <Filter>src\mame\bfm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\bfm\bfm_ad5.cpp">
+      <Filter>src\mame\bfm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\bfm\bfm_ad5sw.cpp">
+      <Filter>src\mame\bfm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\bfm\bfm_adr2.cpp">
+      <Filter>src\mame\bfm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\bfm\bfm_bd1.cpp">
+      <Filter>src\mame\bfm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\bfm\bfm_bda.cpp">
+      <Filter>src\mame\bfm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\bfm\bfm_blackbox.cpp">
+      <Filter>src\mame\bfm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\bfm\bfm_comn.cpp">
+      <Filter>src\mame\bfm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\bfm\bfm_dm01.cpp">
+      <Filter>src\mame\bfm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\bfm\bfm_sc1.cpp">
+      <Filter>src\mame\bfm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\bfm\bfm_sc2.cpp">
+      <Filter>src\mame\bfm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\bfm\bfm_sc4.cpp">
+      <Filter>src\mame\bfm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\bfm\bfm_sc45_helper.cpp">
+      <Filter>src\mame\bfm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\bfm\bfm_sc5.cpp">
+      <Filter>src\mame\bfm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\bfm\bfm_sc5sw.cpp">
+      <Filter>src\mame\bfm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\bfm\bfm_sc6.cpp">
+      <Filter>src\mame\bfm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\bfm\bfm_swp.cpp">
+      <Filter>src\mame\bfm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\bfm\rastersp.cpp">
+      <Filter>src\mame\bfm</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

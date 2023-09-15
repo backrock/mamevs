@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\dai">
+      <UniqueIdentifier>{B3F37FEE-9F56-0F93-48DC-4749341EDB15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\dai\dai.h">
+      <Filter>src\mame\dai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dai\dai_snd.h">
+      <Filter>src\mame\dai</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\dai\dai.cpp">
+      <Filter>src\mame\dai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dai\dai_m.cpp">
+      <Filter>src\mame\dai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dai\dai_snd.cpp">
+      <Filter>src\mame\dai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dai\dai_v.cpp">
+      <Filter>src\mame\dai</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

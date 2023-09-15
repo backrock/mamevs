@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\vsystem">
+      <UniqueIdentifier>{A048E0E4-8C41-FF36-B573-E4BBA1CBDE42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\vsystem\aerofgt.h">
+      <Filter>src\mame\vsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\vsystem\fromanc2.h">
+      <Filter>src\mame\vsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\vsystem\fromance.h">
+      <Filter>src\mame\vsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\vsystem\mb60553.h">
+      <Filter>src\mame\vsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\vsystem\ojankohs.h">
+      <Filter>src\mame\vsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\vsystem\vs9209.h">
+      <Filter>src\mame\vsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\vsystem\vs920a.h">
+      <Filter>src\mame\vsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\vsystem\vsystem_gga.h">
+      <Filter>src\mame\vsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\vsystem\vsystem_spr.h">
+      <Filter>src\mame\vsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\vsystem\vsystem_spr2.h">
+      <Filter>src\mame\vsystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\aerofgt.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\aerofgt_v.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\crshrace.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\f1gp.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\fromanc2.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\fromanc2_v.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\fromance.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\fromance_v.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\gstriker.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\inufuku.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\mb60553.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\ojankohs.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\ojankohs_v.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\pipedrm.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\rpunch.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\suprslam.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\tail2nos.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\taotaido.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\vs9209.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\vs920a.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\vsystem_gga.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\vsystem_spr.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\vsystem_spr2.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vsystem\welltris.cpp">
+      <Filter>src\mame\vsystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\yamaha">
+      <UniqueIdentifier>{F66BC188-62F7-2E4D-6B08-B241D7128B4D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\yamaha\mulcd.h">
+      <Filter>src\mame\yamaha</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\fb01.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\mulcd.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\tg100.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\yman1x.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ymdx100.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ymdx11.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ymdx7.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ymdx9.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ymmu100.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ymmu5.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ymmu50.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ymmu80.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ympcs30.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ymps400.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ympsr150.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ympsr16.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ympsr260.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ympsr340.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ympsr40.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ympsr400.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ympsr60.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ymqy70.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ymrx15.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ymsy35.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ymtx81z.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ymvl1.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\yamaha\ymvl70.cpp">
+      <Filter>src\mame\yamaha</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

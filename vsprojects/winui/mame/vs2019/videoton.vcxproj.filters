@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\videoton">
+      <UniqueIdentifier>{6DD3264D-D9E9-24E3-2261-B0048EB6F56A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\videoton\tvc_a.h">
+      <Filter>src\mame\videoton</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\videoton\tvc.cpp">
+      <Filter>src\mame\videoton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\videoton\tvc_a.cpp">
+      <Filter>src\mame\videoton</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\sony">
+      <UniqueIdentifier>{6EE086BE-DAA0-02F5-A3DB-4B720F5B47D1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\sony\cat702.h">
+      <Filter>src\mame\sony</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sony\cxd8442q.h">
+      <Filter>src\mame\sony</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sony\cxd8452aq.h">
+      <Filter>src\mame\sony</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sony\dmac3.h">
+      <Filter>src\mame\sony</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sony\dmac_0266.h">
+      <Filter>src\mame\sony</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sony\dmac_0448.h">
+      <Filter>src\mame\sony</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sony\news_hid.h">
+      <Filter>src\mame\sony</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sony\psxcd.h">
+      <Filter>src\mame\sony</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sony\taito_zm.h">
+      <Filter>src\mame\sony</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sony\zn.h">
+      <Filter>src\mame\sony</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sony\znmcu.h">
+      <Filter>src\mame\sony</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\betacam.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\bvm.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\cat702.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\cxd8442q.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\cxd8452aq.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\dfs500.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\dmac3.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\dmac_0266.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\dmac_0448.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\dpsv55.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\news_38xx.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\news_68k.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\news_hid.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\news_r3k.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\news_r4k.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\pockstat.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\ps2sony.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\psx.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\psxcd.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\pve500.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\smc777.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\taitogn.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\taito_zm.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\umatic.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\zn.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sony\znmcu.cpp">
+      <Filter>src\mame\sony</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

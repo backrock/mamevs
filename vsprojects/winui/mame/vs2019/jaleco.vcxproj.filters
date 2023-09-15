@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\jaleco">
+      <UniqueIdentifier>{938EC365-FF19-312A-082B-B41E74358D2A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\jaleco\argus.h">
+      <Filter>src\mame\jaleco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\jaleco\cischeat.h">
+      <Filter>src\mame\jaleco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\jaleco\citycon.h">
+      <Filter>src\mame\jaleco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\jaleco\jalblend.h">
+      <Filter>src\mame\jaleco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\jaleco\jalcrpt.h">
+      <Filter>src\mame\jaleco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\jaleco\jaleco_ms32_sysctrl.h">
+      <Filter>src\mame\jaleco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\jaleco\jaleco_vj_pc.h">
+      <Filter>src\mame\jaleco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\jaleco\jaleco_vj_sound.h">
+      <Filter>src\mame\jaleco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\jaleco\jaleco_vj_ups.h">
+      <Filter>src\mame\jaleco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\jaleco\megasys1.h">
+      <Filter>src\mame\jaleco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\jaleco\ms1_tmap.h">
+      <Filter>src\mame\jaleco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\jaleco\ms32.h">
+      <Filter>src\mame\jaleco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\jaleco\ms32_sprite.h">
+      <Filter>src\mame\jaleco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\jaleco\tetrisp2.h">
+      <Filter>src\mame\jaleco</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\acommand.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\aeroboto.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\argus.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\argus_v.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\armchamp.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\bestleag.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\bigstrkb.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\blueprnt.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\bnstars.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\cischeat.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\cischeat_v.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\citycon.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\citycon_v.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\ddayjlc.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\exerion.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\fcombat.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\ginganin.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\homerun.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\jalblend.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\jalcrpt.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\jaleco_ms32_sysctrl.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\jaleco_vj_pc.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\jaleco_vj_sound.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\jaleco_vj_ups.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\jalmah.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\megasys1.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\megasys1_v.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\momoko.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\ms1_tmap.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\ms32.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\ms32_sprite.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\ms32_v.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\psychic5.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\pturn.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\skyfox.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\tetrisp2.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\jaleco\tetrisp2_v.cpp">
+      <Filter>src\mame\jaleco</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

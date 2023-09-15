@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\xerox">
+      <UniqueIdentifier>{1BFDB78F-07CB-AB95-F05E-1CBCDCCB87FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\xerox\x820kb.h">
+      <Filter>src\mame\xerox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\xerox\xerox820.h">
+      <Filter>src\mame\xerox</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\xerox\alto1.cpp">
+      <Filter>src\mame\xerox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\xerox\alto2.cpp">
+      <Filter>src\mame\xerox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\xerox\bigbord2.cpp">
+      <Filter>src\mame\xerox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\xerox\notetaker.cpp">
+      <Filter>src\mame\xerox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\xerox\x820kb.cpp">
+      <Filter>src\mame\xerox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\xerox\xerox820.cpp">
+      <Filter>src\mame\xerox</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

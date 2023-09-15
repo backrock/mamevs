@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\nintendo">
+      <UniqueIdentifier>{849B7503-F0B1-7399-3929-FFBAA57E4421}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\src\mame\nintendo\cx4data.ipp">
+      <Filter>src\mame\nintendo</Filter>
+    </None>
+    <None Include="..\..\..\..\..\src\mame\nintendo\cx4fn.ipp">
+      <Filter>src\mame\nintendo</Filter>
+    </None>
+    <None Include="..\..\..\..\..\src\mame\nintendo\cx4oam.ipp">
+      <Filter>src\mame\nintendo</Filter>
+    </None>
+    <None Include="..\..\..\..\..\src\mame\nintendo\cx4ops.ipp">
+      <Filter>src\mame\nintendo</Filter>
+    </None>
+    <None Include="..\..\..\..\..\src\mame\nintendo\rdpfiltr.ipp">
+      <Filter>src\mame\nintendo</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\dkong.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\gba.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\m6502_swap_op_d2_d7.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\m6502_swap_op_d5_d6.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\m6502_vtscr.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\mario.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\n64.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\n64types.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\n64_v.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\n8080.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\nds.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\nes.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\nes_vt09_soc.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\nes_vt32_soc.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\nes_vt369_vtunknown_soc.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\nes_vt_soc.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\nl_mario.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\nl_popeye.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\pin64.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\popeye.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\punchout.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\rdpblend.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\rdptpipe.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\snes.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\snescx4.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\vt1682_alu.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\vt1682_io.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\vt1682_timer.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nintendo\vt1682_uio.h">
+      <Filter>src\mame\nintendo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\aleck64.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\cham24.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\compmahj.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\cothello.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\dkong.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\dkong_a.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\dkong_v.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\famibox.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\gamecube.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\gb.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\gba.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\m6502_swap_op_d2_d7.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\m6502_swap_op_d5_d6.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\m6502_vtscr.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\mario.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\mario_a.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\mario_v.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\mmagic.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\multigam.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\n64.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\n64_gateway.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\n64_m.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\n64_v.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\n8080.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\n8080_a.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\n8080_v.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\nds.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\nes.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\nes_arcade_bl.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\nes_clone.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\nes_m.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\nes_m8.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\nes_m82.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\nes_sh6578.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\nes_v.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\nes_vt02_vt03.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\nes_vt09.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\nes_vt09_soc.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\nes_vt32.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\nes_vt32_soc.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\nes_vt369_vtunknown.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\nes_vt369_vtunknown_soc.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\nes_vt_soc.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\nl_mario.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\nl_popeye.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\nss.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\pin64.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\playch10.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\pokemini.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\popeye.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\popeye_v.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\punchout.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\punchout_v.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\rdpblend.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\rdptpipe.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\sfcbox.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\snes.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\snesb.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\snesb51.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\snescx4.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\snes_m.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\spacefb.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\vboy.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\vsnes.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\vt1682.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\vt1682_alu.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\vt1682_io.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\vt1682_timer.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\vt1682_uio.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nintendo\vt_unknown.cpp">
+      <Filter>src\mame\nintendo</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

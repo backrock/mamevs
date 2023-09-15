@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\samsung">
+      <UniqueIdentifier>{63961BD3-4F8F-3A25-78C1-1FAA64191A31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\samsung\dvd-n5xx.cpp">
+      <Filter>src\mame\samsung</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\samsung\spc1000.cpp">
+      <Filter>src\mame\samsung</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\samsung\spc1500.cpp">
+      <Filter>src\mame\samsung</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

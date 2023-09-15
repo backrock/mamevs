@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\galaxian">
+      <UniqueIdentifier>{0A16DF1F-762C-DDB5-BFA3-68D72BF9AD3D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\galaxian\fastfred.h">
+      <Filter>src\mame\galaxian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\galaxian\galaxian.h">
+      <Filter>src\mame\galaxian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\galaxian\galaxian_a.h">
+      <Filter>src\mame\galaxian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\galaxian\galaxold.h">
+      <Filter>src\mame\galaxian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\galaxian\nl_konami.h">
+      <Filter>src\mame\galaxian</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\galaxian\scramble.h">
+      <Filter>src\mame\galaxian</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\galaxian\dambustr.cpp">
+      <Filter>src\mame\galaxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\galaxian\fastfred.cpp">
+      <Filter>src\mame\galaxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\galaxian\fastfred_v.cpp">
+      <Filter>src\mame\galaxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\galaxian\galaxian.cpp">
+      <Filter>src\mame\galaxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\galaxian\galaxian_a.cpp">
+      <Filter>src\mame\galaxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\galaxian\galaxian_rockclim.cpp">
+      <Filter>src\mame\galaxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\galaxian\galaxian_v.cpp">
+      <Filter>src\mame\galaxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\galaxian\galaxold.cpp">
+      <Filter>src\mame\galaxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\galaxian\galaxold_m.cpp">
+      <Filter>src\mame\galaxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\galaxian\galaxold_v.cpp">
+      <Filter>src\mame\galaxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\galaxian\nl_konami.cpp">
+      <Filter>src\mame\galaxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\galaxian\scobra.cpp">
+      <Filter>src\mame\galaxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\galaxian\scramble.cpp">
+      <Filter>src\mame\galaxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\galaxian\scramble_a.cpp">
+      <Filter>src\mame\galaxian</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\galaxian\scramble_m.cpp">
+      <Filter>src\mame\galaxian</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

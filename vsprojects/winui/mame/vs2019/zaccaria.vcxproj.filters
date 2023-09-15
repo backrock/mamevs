@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\zaccaria">
+      <UniqueIdentifier>{A330DB93-0F47-D929-58BE-644BC413AAB1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\zaccaria\laserbat.h">
+      <Filter>src\mame\zaccaria</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\zaccaria\nl_zac1b11142.h">
+      <Filter>src\mame\zaccaria</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\zaccaria\zaccaria.h">
+      <Filter>src\mame\zaccaria</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\zaccaria\zaccaria_a.h">
+      <Filter>src\mame\zaccaria</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\zaccaria\laserbat.cpp">
+      <Filter>src\mame\zaccaria</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\zaccaria\laserbat_a.cpp">
+      <Filter>src\mame\zaccaria</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\zaccaria\laserbat_v.cpp">
+      <Filter>src\mame\zaccaria</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\zaccaria\nl_zac1b11142.cpp">
+      <Filter>src\mame\zaccaria</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\zaccaria\seabattl.cpp">
+      <Filter>src\mame\zaccaria</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\zaccaria\zac1b1120.cpp">
+      <Filter>src\mame\zaccaria</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\zaccaria\zaccaria.cpp">
+      <Filter>src\mame\zaccaria</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\zaccaria\zaccaria_a.cpp">
+      <Filter>src\mame\zaccaria</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\zaccaria\zaccaria_v.cpp">
+      <Filter>src\mame\zaccaria</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

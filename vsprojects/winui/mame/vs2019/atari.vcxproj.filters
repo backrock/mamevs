@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\atari">
+      <UniqueIdentifier>{36BB1F8E-2289-1394-0B1D-84BAF789EFF8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\src\mame\atari\jagblit.ipp">
+      <Filter>src\mame\atari</Filter>
+    </None>
+    <None Include="..\..\..\..\..\src\mame\atari\jagobj.ipp">
+      <Filter>src\mame\atari</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\antic.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\asic65.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\asteroid.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atari400.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarifb.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarifdc.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarig1.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarig42.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarigen.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarigt.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarigx2.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarijsa.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarimo.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarirle.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarisac.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atariscom.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\ataristb.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarist_v.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarisy1.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarisy2.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarivad.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\atarixga.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\avalnche.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\badlands.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\bsktball.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\bwidow.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\bzone.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\canyon_a.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\centiped.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\copsnrob_a.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\dragrace_a.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\firetrk_a.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\gtia.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\harddriv.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\irobot.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\jagblit.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\jaguar.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\jag_blitter.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\lynx.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\maria.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\mathbox.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\nitedrvr_a.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\nl_breakout.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\nl_destroyr.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\nl_flyball.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\nl_gtrak10.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\nl_pong.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\nl_pongdoubles.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\nl_rebound.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\nl_stuntcyc.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\nl_tank.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\orbit_a.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\pofo_kbd.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\poolshrk_a.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\redbaron.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\skydiver_a.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\skyraid_a.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\slapstic.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\sprint2_a.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\sprint4_a.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\sprint8_a.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\starshp1_a.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\starwars.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\stkbd.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\stmmu.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\stvideo.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\subs_a.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\tank8_a.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\tia.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\triplhnt_a.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\atari\videopin_a.h">
+      <Filter>src\mame\atari</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\a2600.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\a7800.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\akkaarrh.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\antic.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\arcadecl.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\asic65.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\asteroid.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\asteroid_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\asteroid_m.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atari400.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atari400_m.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atari400_v.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarifb.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarifb_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarifb_m.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarifb_v.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarifdc.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarig1.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarig1_v.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarig42.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarig42_v.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarigen.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarigt.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarigt_v.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarigx2.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarigx2_v.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarijsa.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarimo.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarirle.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarisac.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atariscom.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarist.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\ataristb.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarist_v.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarisy1.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarisy1_v.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarisy2.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarisy2_v.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarisy4.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarittl.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarivad.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atarixga.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\atetris.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\avalnche.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\avalnche_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\badlands.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\badlandsbl.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\badlands_m.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\badlands_ms.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\badlands_v.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\bartop52.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\batman.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\beathead.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\blstroid.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\boxer.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\bsktball.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\bsktball_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\bsktball_m.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\bsktball_v.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\bwidow.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\bwidow_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\bzone.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\bzone_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\canyon.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\canyon_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\cball.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\ccastles.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\centiped.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\centiped_v.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\cloak.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\cloud9.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\cmmb.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\cops.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\copsnrob.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\copsnrob_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\cyberbal.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\cybstorm.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\destroyr.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\dragrace.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\dragrace_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\eprom.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\firefox.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\firetrk.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\firetrk_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\flyball.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\foodf.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\gauntlet.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\gtia.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\gumrally.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\harddriv.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\harddriv_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\harddriv_m.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\harddriv_v.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\hitparade.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\irobot.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\irobot_m.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\irobot_v.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\jaguar.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\jaguar_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\jaguar_v.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\jag_blitter.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\jedi.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\klax.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\liberatr.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\lynx.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\lynx_m.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\marblmd2.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\maria.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\mathbox.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\maxaflex.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\mediagx.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\metalmx.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\mgolf.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\mhavoc.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\missile.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nitedrvr.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nitedrvr_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nl_breakout.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nl_destroyr.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nl_flyball.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nl_gtrak10.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nl_pong.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nl_pongdoubles.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nl_rebound.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nl_stuntcyc.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\nl_tank.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\offtwall.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\orbit.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\orbit_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\pofo.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\pofo_kbd.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\pong.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\poolshrk.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\poolshrk_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\quantum.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\quizshow.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\rampart.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\redbaron.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\relief.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\runaway.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\sbrkout.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\shuuz.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\skullxbo.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\skydiver.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\skydiver_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\skyraid.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\skyraid_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\slapstic.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\sprint2.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\sprint2_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\sprint4.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\sprint4_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\sprint8.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\sprint8_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\starshp1.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\starshp1_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\starwars.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\starwars_m.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\stkbd.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\stmmu.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\stvideo.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\subs.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\subs_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\tank8.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\tank8_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\tempest.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\thunderj.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\tia.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\tomcat.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\toobin.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\tourtabl.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\triplhnt.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\triplhnt_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\tunhunt.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\ultratnk.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\videopin.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\videopin_a.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\vindictr.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\wolfpack.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\atari\xybots.cpp">
+      <Filter>src\mame\atari</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

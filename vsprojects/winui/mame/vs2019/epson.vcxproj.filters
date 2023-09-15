@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\epson">
+      <UniqueIdentifier>{EA37668E-D605-5A94-BF99-CABAAB0636F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\epson\hx20.h">
+      <Filter>src\mame\epson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\epson\px8.h">
+      <Filter>src\mame\epson</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\epson\hx20.cpp">
+      <Filter>src\mame\epson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\epson\px4.cpp">
+      <Filter>src\mame\epson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\epson\px8.cpp">
+      <Filter>src\mame\epson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\epson\qx10.cpp">
+      <Filter>src\mame\epson</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

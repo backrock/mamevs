@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\gaelco">
+      <UniqueIdentifier>{D05BC05E-3CE7-2D23-45F8-B017B1028A23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\gaelco\gaelco.h">
+      <Filter>src\mame\gaelco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\gaelco\gaelco2.h">
+      <Filter>src\mame\gaelco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\gaelco\gaelco3d.h">
+      <Filter>src\mame\gaelco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\gaelco\gaelco3d_m.h">
+      <Filter>src\mame\gaelco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\gaelco\gaelco_ds5002fp.h">
+      <Filter>src\mame\gaelco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\gaelco\gaelco_wrally_sprites.h">
+      <Filter>src\mame\gaelco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\gaelco\gaelcrpt.h">
+      <Filter>src\mame\gaelco</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\gaelco\splash.h">
+      <Filter>src\mame\gaelco</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\atvtrack.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\bigkarnk_ms.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\blmbycar.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\gaelco.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\gaelco2.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\gaelco2_m.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\gaelco2_v.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\gaelco3d.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\gaelco3d_m.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\gaelco3d_v.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\gaelcof3.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\gaelcopc.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\gaelco_ds5002fp.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\gaelco_v.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\gaelco_wrally_sprites.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\gaelcrpt.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\glass.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\goldart.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\mastboy.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\mastboyo.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\rollext.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\splash.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\splash_ms.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\splash_v.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\targeth.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\thoop2.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\wrally.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\gaelco\xorworld.cpp">
+      <Filter>src\mame\gaelco</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

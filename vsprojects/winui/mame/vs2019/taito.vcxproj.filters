@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\taito">
+      <UniqueIdentifier>{E6436D8F-D211-6195-BBA5-D1BBA7123DFA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\40love.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\arkanoid.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\bking.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\bublbobl.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\crbaloon.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\gladiatr.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\grchamp.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\gsword.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\kikikai.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\lsasquad.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\nycaptor.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\othunder.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\pc080sn.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\pc090oj.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\qix.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\slapshot.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\superchs.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\superqix.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taitoair.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taitocchip.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taitoio.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taitoio_yoke.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taitoipt.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taitojc.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taitosj.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taitosjsec.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taito_b.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taito_en.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taito_f2.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taito_f3.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taito_h.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taito_helper.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taito_l.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taito_z.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tc0080vco.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tc0100scn.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tc0110pcr.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tc0150rod.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tc0180vcu.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tc0280grd.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tc0360pri.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tc0480scp.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tc0780fpa.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tnzs_video.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tsamurai.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\undrfire.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\wgp.h">
+      <Filter>src\mame\taito</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\2mindril.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\40love.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\40love_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\arkanoid.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\arkanoid_m.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\arkanoid_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\ashnojoe.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\asuka.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\bigevglf.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\bingowav.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\bking.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\bking_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\bublbobl.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\bublbobl_m.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\bublbobl_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\buggychl.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\capr1.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\caprcyc.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\cchance.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\chaknpop.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\champbwl.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\changela.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\cpzodiac.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\crbaloon.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\crbaloon_a.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\crbaloon_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\cucaracha.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\cyclemb.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\darius.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\dinoking.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\exzisus.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\fgoal.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\flstory.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\galastrm.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\gladiatr.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\gladiatr_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\grchamp.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\grchamp_a.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\grchamp_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\groundfx.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\gsword.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\gsword_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\gunbustr.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\halleys.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\heromem.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\invqix.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\jollyjgr.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\kikikai.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\kikikai_m.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\kikikai_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\ksayakyu.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\lgp.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\lkage.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\lsasquad.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\lsasquad_m.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\lsasquad_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\marinedt.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\minivadr.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\missb2.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\mlanding.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\msisaac.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\ninjaw.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\nycaptor.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\nycaptor_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\opwolf.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\othunder.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\othunder_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\pc080sn.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\pc090oj.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\pitnrun.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\pkspirit.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\qix.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\qix_a.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\qix_m.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\qix_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\rastan.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\rbisland.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\retofinv.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\rollrace.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\sbmjb.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\sbowling.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\scyclone.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\slapshot.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\slapshot_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\spdheat.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\ssrj.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\superchs.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\superchs_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\superqix.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\superqix_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitoair.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitoair_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitocchip.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitoio.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitoio_yoke.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitojc.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitojc_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitopjc.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitosj.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitosjsec.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitosj_m.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitosj_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitottl.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitotx.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitotz.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitowlf.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_b.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_b_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_en.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_f2.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_f2_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_f3.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_f3_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_h.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_helper.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_h_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_l.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_l_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_o.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_x.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_z.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_z_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tc0080vco.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tc0100scn.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tc0110pcr.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tc0150rod.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tc0180vcu.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tc0280grd.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tc0360pri.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tc0480scp.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tc0780fpa.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tnzs.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tnzs_video.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\topspeed.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tsamurai.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tsamurai_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\undrfire.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\undrfire_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\vicshoot.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\volfied.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\warriorb.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\wgp.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\wgp_v.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\wyvernf0.cpp">
+      <Filter>src\mame\taito</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

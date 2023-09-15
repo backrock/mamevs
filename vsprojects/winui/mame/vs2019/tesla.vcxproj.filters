@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\tesla">
+      <UniqueIdentifier>{DE9E6F8F-CA6C-6395-B300-D4BB9F6D3FFA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\tesla\ondra.h">
+      <Filter>src\mame\tesla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tesla\pmd85.h">
+      <Filter>src\mame\tesla</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\tesla\ondra.cpp">
+      <Filter>src\mame\tesla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tesla\ondra_m.cpp">
+      <Filter>src\mame\tesla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tesla\pmd85.cpp">
+      <Filter>src\mame\tesla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tesla\pmd85_m.cpp">
+      <Filter>src\mame\tesla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tesla\pmi80.cpp">
+      <Filter>src\mame\tesla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tesla\sapi1.cpp">
+      <Filter>src\mame\tesla</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

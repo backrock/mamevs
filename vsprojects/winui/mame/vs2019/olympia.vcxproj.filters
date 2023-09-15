@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\olympia">
+      <UniqueIdentifier>{2028B1B9-0C21-D00B-3553-B59021ABAF17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\olympia\dday.h">
+      <Filter>src\mame\olympia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\olympia\portrait.h">
+      <Filter>src\mame\olympia</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\olympia\dday.cpp">
+      <Filter>src\mame\olympia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\olympia\dday_v.cpp">
+      <Filter>src\mame\olympia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\olympia\lbeach.cpp">
+      <Filter>src\mame\olympia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\olympia\monzagp.cpp">
+      <Filter>src\mame\olympia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\olympia\portrait.cpp">
+      <Filter>src\mame\olympia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\olympia\portrait_v.cpp">
+      <Filter>src\mame\olympia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\olympia\vega.cpp">
+      <Filter>src\mame\olympia</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

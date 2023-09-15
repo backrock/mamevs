@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\casio">
+      <UniqueIdentifier>{74CC398E-609A-2D94-492E-9EBA359B09F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\casio\fp6000_kbd.h">
+      <Filter>src\mame\casio</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\casio\casio_rompack.cpp">
+      <Filter>src\mame\casio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\casio\casloopy.cpp">
+      <Filter>src\mame\casio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\casio\cfx9850.cpp">
+      <Filter>src\mame\casio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\casio\ctk2000.cpp">
+      <Filter>src\mame\casio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\casio\ctk551.cpp">
+      <Filter>src\mame\casio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\casio\cz101.cpp">
+      <Filter>src\mame\casio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\casio\fp1100.cpp">
+      <Filter>src\mame\casio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\casio\fp200.cpp">
+      <Filter>src\mame\casio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\casio\fp6000.cpp">
+      <Filter>src\mame\casio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\casio\fp6000_kbd.cpp">
+      <Filter>src\mame\casio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\casio\ht6000.cpp">
+      <Filter>src\mame\casio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\casio\ld50.cpp">
+      <Filter>src\mame\casio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\casio\pb1000.cpp">
+      <Filter>src\mame\casio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\casio\pv1000.cpp">
+      <Filter>src\mame\casio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\casio\pv2000.cpp">
+      <Filter>src\mame\casio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\casio\rz1.cpp">
+      <Filter>src\mame\casio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\casio\sk1.cpp">
+      <Filter>src\mame\casio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\casio\sx1000.cpp">
+      <Filter>src\mame\casio</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

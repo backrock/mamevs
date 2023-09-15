@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\universal">
+      <UniqueIdentifier>{DEDCA2C2-CAC0-6318-3321-5E6B1F244E9A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\universal\cheekyms.h">
+      <Filter>src\mame\universal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\universal\cheekyms_a.h">
+      <Filter>src\mame\universal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\universal\cosmic.h">
+      <Filter>src\mame\universal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\universal\docastle.h">
+      <Filter>src\mame\universal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\universal\ladybug_video.h">
+      <Filter>src\mame\universal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\universal\mrdo.h">
+      <Filter>src\mame\universal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\universal\nl_cheekyms.h">
+      <Filter>src\mame\universal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\universal\zerohour_stars.h">
+      <Filter>src\mame\universal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\universal\cheekyms.cpp">
+      <Filter>src\mame\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\universal\cheekyms_a.cpp">
+      <Filter>src\mame\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\universal\cheekyms_v.cpp">
+      <Filter>src\mame\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\universal\cosmic.cpp">
+      <Filter>src\mame\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\universal\cosmicg.cpp">
+      <Filter>src\mame\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\universal\cosmic_v.cpp">
+      <Filter>src\mame\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\universal\docastle.cpp">
+      <Filter>src\mame\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\universal\docastle_m.cpp">
+      <Filter>src\mame\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\universal\docastle_v.cpp">
+      <Filter>src\mame\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\universal\getaway.cpp">
+      <Filter>src\mame\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\universal\ladybug.cpp">
+      <Filter>src\mame\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\universal\ladybug_video.cpp">
+      <Filter>src\mame\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\universal\mrdo.cpp">
+      <Filter>src\mame\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\universal\mrdo_v.cpp">
+      <Filter>src\mame\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\universal\nl_cheekyms.cpp">
+      <Filter>src\mame\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\universal\sraider.cpp">
+      <Filter>src\mame\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\universal\superdq.cpp">
+      <Filter>src\mame\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\universal\zerohour.cpp">
+      <Filter>src\mame\universal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\universal\zerohour_stars.cpp">
+      <Filter>src\mame\universal</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

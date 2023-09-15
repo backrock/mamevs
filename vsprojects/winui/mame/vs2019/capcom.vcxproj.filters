@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\capcom">
+      <UniqueIdentifier>{B89C7155-2428-DF19-2D39-620E99433B1A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\capcom\1942.h">
+      <Filter>src\mame\capcom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\capcom\1943.h">
+      <Filter>src\mame\capcom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\capcom\cps1.h">
+      <Filter>src\mame\capcom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\capcom\cps2comm.h">
+      <Filter>src\mame\capcom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\capcom\cps2crypt.h">
+      <Filter>src\mame\capcom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\capcom\cps3.h">
+      <Filter>src\mame\capcom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\capcom\cps3_a.h">
+      <Filter>src\mame\capcom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\capcom\fcrash.h">
+      <Filter>src\mame\capcom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\capcom\kabuki.h">
+      <Filter>src\mame\capcom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\capcom\lastduel.h">
+      <Filter>src\mame\capcom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\capcom\nl_1942.h">
+      <Filter>src\mame\capcom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\capcom\sidearms.h">
+      <Filter>src\mame\capcom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\capcom\tigeroad.h">
+      <Filter>src\mame\capcom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\capcom\tigeroad_spr.h">
+      <Filter>src\mame\capcom</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\1942.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\1942_v.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\1943.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\1943_v.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\alien.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\bionicc.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\blktiger.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\blktiger_ms.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\cbasebal.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\commando.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\cps1.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\cps1bl_5205.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\cps1bl_pic.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\cps1_v.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\cps2.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\cps2comm.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\cps2crypt.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\cps3.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\cps3_a.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\egghunt.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\exedexes.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\fcrash.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\gng.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\gunsmoke.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\higemaru.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\instantm.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\kabuki.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\kenseim.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\lastduel.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\lastduel_v.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\lwings.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\mitchell.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\nl_1942.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\psrockman.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\sf.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\sidearms.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\sidearms_v.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\sonson.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\srumbler.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\supduck.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\tigeroad.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\tigeroad_m.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\tigeroad_spr.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\tigeroad_v.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\tvcapcom.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\capcom\vulgus.cpp">
+      <Filter>src\mame\capcom</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

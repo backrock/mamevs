@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\intergraph">
+      <UniqueIdentifier>{193F410E-85A0-1E1C-0E0E-65CE7A6E55DB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\intergraph\interpro_arbga.h">
+      <Filter>src\mame\intergraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\intergraph\interpro_ioga.h">
+      <Filter>src\mame\intergraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\intergraph\interpro_mcga.h">
+      <Filter>src\mame\intergraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\intergraph\interpro_sga.h">
+      <Filter>src\mame\intergraph</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\intergraph\interpro.cpp">
+      <Filter>src\mame\intergraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intergraph\interpro_arbga.cpp">
+      <Filter>src\mame\intergraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intergraph\interpro_ioga.cpp">
+      <Filter>src\mame\intergraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intergraph\interpro_mcga.cpp">
+      <Filter>src\mame\intergraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intergraph\interpro_sga.cpp">
+      <Filter>src\mame\intergraph</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

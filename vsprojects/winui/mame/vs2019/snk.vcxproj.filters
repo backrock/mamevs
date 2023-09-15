@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\snk">
+      <UniqueIdentifier>{313580EE-1D98-0F93-C61D-4849B25FDB15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\src\mame\snk\hng64_3d.ipp">
+      <Filter>src\mame\snk</Filter>
+    </None>
+    <None Include="..\..\..\..\..\src\mame\snk\hng64_sprite.ipp">
+      <Filter>src\mame\snk</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\snk\hng64.h">
+      <Filter>src\mame\snk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\snk\k1ge.h">
+      <Filter>src\mame\snk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\snk\lasso.h">
+      <Filter>src\mame\snk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\snk\prehisle.h">
+      <Filter>src\mame\snk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\snk\snk.h">
+      <Filter>src\mame\snk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\snk\snk6502.h">
+      <Filter>src\mame\snk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\snk\snk6502_a.h">
+      <Filter>src\mame\snk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\snk\snk68.h">
+      <Filter>src\mame\snk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\snk\snk_bbusters_spr.h">
+      <Filter>src\mame\snk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\bbusters.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\dmndrby.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\hng64.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\hng64_a.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\hng64_v.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\k1ge.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\lasso.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\lasso_v.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\mainsnk.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\mechatt.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\miconkit.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\munchmo.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\ngp.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\prehisle.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\prehisle_v.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\snk.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\snk6502.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\snk6502_a.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\snk6502_v.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\snk68.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\snk68_v.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\snk_bbusters_spr.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\snk\snk_v.cpp">
+      <Filter>src\mame\snk</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

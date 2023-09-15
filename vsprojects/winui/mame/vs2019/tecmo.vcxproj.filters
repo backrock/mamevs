@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\tecmo">
+      <UniqueIdentifier>{FD5A6F8F-E928-6395-D2BC-D3BBBE293FFA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\tecmo\gaiden.h">
+      <Filter>src\mame\tecmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tecmo\senjyo.h">
+      <Filter>src\mame\tecmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tecmo\tecmo.h">
+      <Filter>src\mame\tecmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tecmo\tecmosys.h">
+      <Filter>src\mame\tecmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tecmo\tecmo_mix.h">
+      <Filter>src\mame\tecmo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\tecmo\bombjack.cpp">
+      <Filter>src\mame\tecmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tecmo\gaiden.cpp">
+      <Filter>src\mame\tecmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tecmo\gaiden_v.cpp">
+      <Filter>src\mame\tecmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tecmo\lvcards.cpp">
+      <Filter>src\mame\tecmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tecmo\pbaction.cpp">
+      <Filter>src\mame\tecmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tecmo\senjyo.cpp">
+      <Filter>src\mame\tecmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tecmo\senjyo_v.cpp">
+      <Filter>src\mame\tecmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tecmo\solomon.cpp">
+      <Filter>src\mame\tecmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tecmo\spbactn.cpp">
+      <Filter>src\mame\tecmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tecmo\tbowl.cpp">
+      <Filter>src\mame\tecmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tecmo\tecmo.cpp">
+      <Filter>src\mame\tecmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tecmo\tecmo16.cpp">
+      <Filter>src\mame\tecmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tecmo\tecmosys.cpp">
+      <Filter>src\mame\tecmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tecmo\tecmosys_m.cpp">
+      <Filter>src\mame\tecmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tecmo\tecmosys_v.cpp">
+      <Filter>src\mame\tecmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tecmo\tecmo_mix.cpp">
+      <Filter>src\mame\tecmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tecmo\tecmo_v.cpp">
+      <Filter>src\mame\tecmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tecmo\tehkanwc.cpp">
+      <Filter>src\mame\tecmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tecmo\wc90.cpp">
+      <Filter>src\mame\tecmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tecmo\wc90b.cpp">
+      <Filter>src\mame\tecmo</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

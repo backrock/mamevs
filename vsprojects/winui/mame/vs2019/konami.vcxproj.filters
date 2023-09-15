@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\konami">
+      <UniqueIdentifier>{44171769-B0A2-842D-B9B3-072225BEE02D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\3dom2.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\3dom2_te.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\combatsc.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\hyprolyb.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k001005.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k001006.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k001604.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k007121.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k007342.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k007420.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k007452.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k037122.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k051733.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k051960.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k052109.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k053244_k053245.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k053246_k053247_k055673.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k053250.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k053250_ps.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k053251.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k054000.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k054156_k054157_k056832.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k054338.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k055555.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k057714.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k573cass.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k573dio.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k573fpga.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k573kara.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k573mcal.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k573mcr.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k573msu.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k573npu.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\konami1.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\konamigx.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\konamipt.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\konami_gn676_lan.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\konami_helper.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\konppc.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\konppc_jvshost.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\midikbd.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\mystwarr.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\nemesis.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\trackfld.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\trackfld_a.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\tutankhm.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\twin16.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\wecleman.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\windy2.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\zs01.h">
+      <Filter>src\mame\konami</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\3dom2.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\3dom2_te.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\88games.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\ajax.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\aliens.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\asterix.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\battlnts.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\bishi.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\bladestl.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\blockhl.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\bottom9.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\chqflag.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\circusc.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\cobra.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\combatsc.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\combatsc_v.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\contra.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\crimfght.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\dbz.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\ddribble.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\divebomb.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\djmain.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\fastlane.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\finalizr.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\firebeat.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\flkatck.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\gberet.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\giclassic.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\gijoe.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\goldenregion.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\gradius3.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\gticlub.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\gyruss.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\hcastle.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\hexion.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\hornet.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\hyperspt.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\hyprolyb.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\ironhors.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\jackal.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\jailbrek.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\junofrst.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k001005.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k001006.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k001604.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k007121.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k007342.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k007420.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k007452.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k037122.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k051733.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k051960.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k052109.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k053244_k053245.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k053246_k053247_k055673.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k053250.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k053250_ps.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k053251.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k054000.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k054156_k054157_k056832.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k054338.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k055555.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k057714.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k573cass.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k573dio.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k573fpga.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k573kara.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k573mcal.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k573mcr.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k573msu.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k573npu.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konami1.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konamigq.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konamigs.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konamigv.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konamigx.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konamigx_m.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konamigx_v.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konamim2.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konami_gn676_lan.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konami_helper.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konblands.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konendev.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\kongs470.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konmedal.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konmedal020.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konmedal68k.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konmedalppc.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konppc.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konppc_jvshost.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\kontest.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\kpontoon.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\kpython.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\kpython2.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\ksys573.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\labyrunr.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\lethal.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\mainevt.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\megazone.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\midikbd.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\mikie.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\mogura.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\moo.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\mystwarr.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\mystwarr_v.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\nemesis.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\nemesis_v.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\nwk-tr.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\otomedius.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\overdriv.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\pandoras.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\parodius.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\pingpong.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\piratesh.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\plygonet.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\pooyan.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\qdrmfgp.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\quickpick5.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\rockrage.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\rocnrope.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\rollerg.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\rungun.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\sbasketb.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\scotrsht.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\shaolins.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\simpsons.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\spy.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\stingnet.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\surpratk.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\tasman.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\tgtpanic.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\thunderx.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\timeplt.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\tmnt.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\tmnt2.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\tp84.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\trackfld.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\trackfld_a.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\trackfld_v.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\tutankhm.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\tutankhm_v.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\twin16.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\twin16_v.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\twinkle.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\ultraman.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\ultrsprt.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\vendetta.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\viper.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\wecleman.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\wecleman_v.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\windy2.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\xexex.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\xmen.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\yiear.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\zr107.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\zs01.cpp">
+      <Filter>src\mame\konami</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

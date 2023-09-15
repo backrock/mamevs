@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\orla">
+      <UniqueIdentifier>{53BB84BE-BF7B-00F5-88B6-4972F43545D1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\orla\hk1000.cpp">
+      <Filter>src\mame\orla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\orla\xm200.cpp">
+      <Filter>src\mame\orla</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

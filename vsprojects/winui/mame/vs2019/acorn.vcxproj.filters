@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\acorn">
+      <UniqueIdentifier>{58A4168E-4472-0A94-2D06-7BBA1973E6F8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\acorn\atom.h">
+      <Filter>src\mame\acorn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\acorn\bbc.h">
+      <Filter>src\mame\acorn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\acorn\electron.h">
+      <Filter>src\mame\acorn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\acorn\upd65031.h">
+      <Filter>src\mame\acorn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\acorn\z88.h">
+      <Filter>src\mame\acorn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\acorn\z88_impexp.h">
+      <Filter>src\mame\acorn</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\acorn\aa310.cpp">
+      <Filter>src\mame\acorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\acorn\accomm.cpp">
+      <Filter>src\mame\acorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\acorn\acrnsys.cpp">
+      <Filter>src\mame\acorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\acorn\acrnsys1.cpp">
+      <Filter>src\mame\acorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\acorn\aristmk5.cpp">
+      <Filter>src\mame\acorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\acorn\atom.cpp">
+      <Filter>src\mame\acorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\acorn\bbc.cpp">
+      <Filter>src\mame\acorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\acorn\bbc_m.cpp">
+      <Filter>src\mame\acorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\acorn\bbc_v.cpp">
+      <Filter>src\mame\acorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\acorn\cms.cpp">
+      <Filter>src\mame\acorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\acorn\electron.cpp">
+      <Filter>src\mame\acorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\acorn\electron_m.cpp">
+      <Filter>src\mame\acorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\acorn\electron_v.cpp">
+      <Filter>src\mame\acorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\acorn\ertictac.cpp">
+      <Filter>src\mame\acorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\acorn\riscpc.cpp">
+      <Filter>src\mame\acorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\acorn\ssfindo.cpp">
+      <Filter>src\mame\acorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\acorn\upd65031.cpp">
+      <Filter>src\mame\acorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\acorn\z88.cpp">
+      <Filter>src\mame\acorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\acorn\z88_impexp.cpp">
+      <Filter>src\mame\acorn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\acorn\z88_v.cpp">
+      <Filter>src\mame\acorn</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

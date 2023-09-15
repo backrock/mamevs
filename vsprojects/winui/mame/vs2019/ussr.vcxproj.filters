@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\ussr">
+      <UniqueIdentifier>{D20A88BE-3ECB-03F5-0706-4D72738548D1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\ussr\b2m.h">
+      <Filter>src\mame\ussr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ussr\bk.h">
+      <Filter>src\mame\ussr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ussr\km035.h">
+      <Filter>src\mame\ussr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ussr\lviv.h">
+      <Filter>src\mame\ussr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ussr\mikro80.h">
+      <Filter>src\mame\ussr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ussr\orion.h">
+      <Filter>src\mame\ussr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ussr\partner.h">
+      <Filter>src\mame\ussr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ussr\pk8020.h">
+      <Filter>src\mame\ussr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ussr\radio86.h">
+      <Filter>src\mame\ussr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ussr\special.h">
+      <Filter>src\mame\ussr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ussr\specialsound.h">
+      <Filter>src\mame\ussr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ussr\tiamc1.h">
+      <Filter>src\mame\ussr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ussr\tiamc1_a.h">
+      <Filter>src\mame\ussr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ussr\ut88.h">
+      <Filter>src\mame\ussr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ussr\vector06.h">
+      <Filter>src\mame\ussr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\apogee.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\argo.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\b2m.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\b2m_m.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\bk.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\bk_m.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\cm1800.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\debut.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\dvk_kcgd.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\dvk_ksm.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\ie15.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\im01.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\intellect02.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\irisha.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\istrebiteli.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\km035.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\krokha.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\lviv.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\lviv_m.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\lviv_v.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\mikro80.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\mikro80_m.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\mikrosha.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\mk85.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\mk90.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\mk98.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\ms0515.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\ms6102.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\okean240.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\orion.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\orion_m.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\orion_v.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\partner.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\partner_m.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\pk8000.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\pk8020.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\pk8020_m.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\pk8020_v.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\pyl601.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\radio86.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\radio86_m.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\sm1800.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\sm7238.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\special.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\specialsound.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\special_gambl.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\special_m.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\special_v.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\tiamc1.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\tiamc1_a.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\tiamc1_v.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\uknc.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\unior.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\ut88.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\ut88_m.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\vector06.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\vector06_m.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\vector06_v.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ussr\vta2000.cpp">
+      <Filter>src\mame\ussr</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

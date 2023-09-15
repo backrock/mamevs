@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\funworld">
+      <UniqueIdentifier>{D6A45D3D-42BB-5BD3-8B32-E7F4F7872C5B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\funworld\funworld.h">
+      <Filter>src\mame\funworld</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\funworld\snookr10.h">
+      <Filter>src\mame\funworld</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\funworld\4roses.cpp">
+      <Filter>src\mame\funworld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\funworld\funworld.cpp">
+      <Filter>src\mame\funworld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\funworld\funworld_v.cpp">
+      <Filter>src\mame\funworld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\funworld\photoply.cpp">
+      <Filter>src\mame\funworld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\funworld\photoplys.cpp">
+      <Filter>src\mame\funworld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\funworld\photoplysx.cpp">
+      <Filter>src\mame\funworld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\funworld\snookr10.cpp">
+      <Filter>src\mame\funworld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\funworld\snookr10_v.cpp">
+      <Filter>src\mame\funworld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\funworld\supercrd.cpp">
+      <Filter>src\mame\funworld</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

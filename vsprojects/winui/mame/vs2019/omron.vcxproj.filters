@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\omron">
+      <UniqueIdentifier>{9083198F-7C51-0D95-65E5-7DBB5152E9F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\omron\luna_kbd.h">
+      <Filter>src\mame\omron</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\omron\luna_68k.cpp">
+      <Filter>src\mame\omron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\omron\luna_88k.cpp">
+      <Filter>src\mame\omron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\omron\luna_kbd.cpp">
+      <Filter>src\mame\omron</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

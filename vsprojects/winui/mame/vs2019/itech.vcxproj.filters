@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\itech">
+      <UniqueIdentifier>{528EB08E-3E5C-A494-27F0-14BB135D80F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\itech\iteagle_fpga.h">
+      <Filter>src\mame\itech</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\itech\itech32.h">
+      <Filter>src\mame\itech</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\itech\itech8.h">
+      <Filter>src\mame\itech</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\itech\capbowl.cpp">
+      <Filter>src\mame\itech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\itech\iteagle.cpp">
+      <Filter>src\mame\itech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\itech\iteagle_fpga.cpp">
+      <Filter>src\mame\itech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\itech\itech32.cpp">
+      <Filter>src\mame\itech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\itech\itech32_v.cpp">
+      <Filter>src\mame\itech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\itech\itech8.cpp">
+      <Filter>src\mame\itech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\itech\itech8_m.cpp">
+      <Filter>src\mame\itech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\itech\itech8_v.cpp">
+      <Filter>src\mame\itech</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

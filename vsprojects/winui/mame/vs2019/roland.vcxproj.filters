@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\roland">
+      <UniqueIdentifier>{051B6A79-71A6-D73D-7AB7-5A32E6C1333E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\roland\bu3905.h">
+      <Filter>src\mame\roland</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\roland\jx8p_synth.h">
+      <Filter>src\mame\roland</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\roland\mb62h195.h">
+      <Filter>src\mame\roland</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\roland\mb63h114.h">
+      <Filter>src\mame\roland</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\roland\mb63h149.h">
+      <Filter>src\mame\roland</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\roland\mb87013.h">
+      <Filter>src\mame\roland</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\roland\pg200.h">
+      <Filter>src\mame\roland</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\roland\sa16.h">
+      <Filter>src\mame\roland</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\alphajuno.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\boss_se70.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\boss_sx700.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\bu3905.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\juno106.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\juno6.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\jx8p_synth.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\mb62h195.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\mb63h114.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\mb63h149.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\mb87013.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\pg200.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_cm32p.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_d10.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_d50.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_jd800.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_jv80.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_jx3p.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_jx8p.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_mc50.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_mt32.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_pr100.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_r8.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_ra30.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_s10.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_s50.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_sc55.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_sc88.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_tb303.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_tnsc1.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_tnsc2.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_tr505.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_tr606.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_tr707.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_tr808.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_tr909.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\roland_u20.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\roland\sa16.cpp">
+      <Filter>src\mame\roland</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

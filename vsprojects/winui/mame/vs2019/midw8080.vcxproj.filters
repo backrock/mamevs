@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\midw8080">
+      <UniqueIdentifier>{26BFFCFF-92D5-FA95-DB4C-86B747A2CB1D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\midw8080\8080bw.h">
+      <Filter>src\mame\midw8080</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midw8080\8080bw_a.h">
+      <Filter>src\mame\midw8080</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midw8080\mw8080bw.h">
+      <Filter>src\mame\midw8080</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midw8080\mw8080bw_a.h">
+      <Filter>src\mame\midw8080</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midw8080\nl_280zzzap.h">
+      <Filter>src\mame\midw8080</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midw8080\nl_gunfight.h">
+      <Filter>src\mame\midw8080</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\midw8080\8080bw.cpp">
+      <Filter>src\mame\midw8080</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midw8080\8080bw_a.cpp">
+      <Filter>src\mame\midw8080</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midw8080\8080bw_v.cpp">
+      <Filter>src\mame\midw8080</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midw8080\mw8080bw.cpp">
+      <Filter>src\mame\midw8080</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midw8080\mw8080bw_a.cpp">
+      <Filter>src\mame\midw8080</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midw8080\mw8080bw_v.cpp">
+      <Filter>src\mame\midw8080</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midw8080\nl_280zzzap.cpp">
+      <Filter>src\mame\midw8080</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midw8080\nl_gunfight.cpp">
+      <Filter>src\mame\midw8080</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midw8080\rotaryf.cpp">
+      <Filter>src\mame\midw8080</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

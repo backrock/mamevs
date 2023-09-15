@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\intel">
+      <UniqueIdentifier>{2184AD8E-0D52-A194-F6E5-11BBE2527DF9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\intel\imds2ioc.h">
+      <Filter>src\mame\intel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\intel\imm6_76.h">
+      <Filter>src\mame\intel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\intel\isbc_208.h">
+      <Filter>src\mame\intel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\intel\basic52.cpp">
+      <Filter>src\mame\intel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intel\imds2.cpp">
+      <Filter>src\mame\intel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intel\imds2ioc.cpp">
+      <Filter>src\mame\intel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intel\imm6_76.cpp">
+      <Filter>src\mame\intel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intel\intellec4.cpp">
+      <Filter>src\mame\intel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intel\intellec8.cpp">
+      <Filter>src\mame\intel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intel\ipc.cpp">
+      <Filter>src\mame\intel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intel\ipds.cpp">
+      <Filter>src\mame\intel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intel\isbc.cpp">
+      <Filter>src\mame\intel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intel\isbc660.cpp">
+      <Filter>src\mame\intel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intel\isbc8010.cpp">
+      <Filter>src\mame\intel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intel\isbc8030.cpp">
+      <Filter>src\mame\intel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intel\isbc_208.cpp">
+      <Filter>src\mame\intel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intel\rex6000.cpp">
+      <Filter>src\mame\intel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intel\sdk51.cpp">
+      <Filter>src\mame\intel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intel\sdk80.cpp">
+      <Filter>src\mame\intel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intel\sdk85.cpp">
+      <Filter>src\mame\intel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\intel\sdk86.cpp">
+      <Filter>src\mame\intel</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

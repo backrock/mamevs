@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\skeleton">
+      <UniqueIdentifier>{AA262425-163D-22BB-5FB4-ADDCCB09F342}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\alfaskop_s41_kb.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\ampex210_kbd.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\basf7100_kbd.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\busicom.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\cosmicos.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\cxhumax.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\digilog_kbd.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\dim68k_kbd.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\dm7000.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\dmv_keyb.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\itt1700_kbd.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\micronic.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\ngen_kb.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\nl_hazelvid.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\nl_palestra.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\nl_tp1983.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\nl_tp1985.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\softbox.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\vp415.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\xor100.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\zorba.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\zorbakbd.h">
+      <Filter>src\mame\skeleton</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\600cat.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\aaa.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\acd.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\aceex.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\adacp150.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\adds2020.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\aid80f.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\airbase99.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\alcat7100.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\alesis_qs.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\alfaskop41xx.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\alfaskop_s41_kb.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\alphasma.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\alphasma3k.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\am1000.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ampex.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ampex210.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ampex210_kbd.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\antonelli_hd6305.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\argox.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\attache.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ax20.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\basf7100.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\basf7100_kbd.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\bert.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\bitgraph.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\blit.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\bolsaint.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\bpmmicro.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\br8641.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\busicom.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\busicom_v.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\c2color.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\candela.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\caramball.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cardinal.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cbnt2039.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cd100.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cd2650.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cdc721.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cdsys5.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cit1500.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ckz80.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\clxvme186.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\codata.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\consola_emt.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\controlid.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cortex.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cosmicos.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cp1.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ct909e_segadvd.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cxhumax.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\d400.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\daruma.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\datacast.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\design.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\diablo1300.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\didact.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\digel804.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\digiblast.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\digijet.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\digilog320.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\digilog400.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\digilog_kbd.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\digitech_gsp5.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\dim68k.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\dim68k_kbd.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\dm7000.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\dmv.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\dmv_keyb.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\dps1.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\dsb46.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\dual68.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\e100.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\easy_karaoke.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\elcirculo.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\elzet80.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\epic14e.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\esprit.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\eurit.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\eurocom2.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\fanucs15.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\fanucspmg.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\fc100.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\fk1.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\fs3216.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ft68m.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\gem_rp.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\gimix.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\gm1000.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\gnat10.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\goupil.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\grfd2301.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\happyvideo.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\hazeltin.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\hazl1420.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\hohnadam.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\hprot1.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ht68k.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\i7000.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\icatel.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\icebox.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\iez80.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\if800.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ikt5a.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\imsai.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\indiana.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\is48x.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\itc4.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\itt1700.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\itt1700_kbd.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\itt3030.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\itt9216.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\jade.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\jonos.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\juku.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\junior80.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\kron.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\learnwin.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\lee1214.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\lee1220.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\lft.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\lg-dvd.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\lilith.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\lms46.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mes.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mfabfz.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mice.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\micral.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\micro20.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\micromon.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\micronic.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mightyframe.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\milwaukee.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mindset.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mini2440.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\miniframe.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\minihock.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\miuchiz.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ml20.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mmd1.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mmd2.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mod8.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\modellot.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\molecular.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ms9540.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mstation.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mt735.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mtd1256.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mw4pole.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mx2178.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mycom.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ngen.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ngen_kb.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\nl_hazelvid.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\nl_palestra.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\nl_tp1983.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\nl_tp1985.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\onyx.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\p8k.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\palestra.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\pdt3100.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\pegasos2.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\pencil2.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\perq.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\pes.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\philipsbo.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\picno.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\plan80.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\pm68k.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\pockchal.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\proteus3.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\pt68k4.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ptcsol.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\pv9234.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\pwp14.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\qtsbc.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\rd100.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\rvoice.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\sacstate.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\sansa_fuze.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\sartorius.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\sb180.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\sb8085.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\sbrain.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\scopus.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\seattlecmp.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\semcrossw.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\sh4robot.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\shine.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\si5500.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\sk101bl.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\slsstars.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\softbox.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\solbourne.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\squale.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\swyft.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\symbolics.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\synthex.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\sys2900.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\sys9002.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\systec.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\systel1.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\tavernie.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\tecnbras.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\teleray10.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\telex1192.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\telex274.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\telex277d.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\terak.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\terco.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\terminal.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\testpat.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\textelcomp.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ti630.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\tk635.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\tnshc08.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\tr175.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\tsispch.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\tulip1.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\tvcobrasd.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\unistar.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\v6809.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\vanguardmk1.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\vd56sp.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\vector3.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\vectrix.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\vp415.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\vp60.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\vsmilepro.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\wicat.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\xbase09.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\xor100.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\zeebo_qualcomm_adreno130.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\zms8085.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\zorba.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\zorbakbd.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\zt8802.cpp">
+      <Filter>src\mame\skeleton</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

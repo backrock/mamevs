@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\aristocrat">
+      <UniqueIdentifier>{01C9ECD3-6D2A-CAE1-F697-109462F800A1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\aristocrat\aristmk4.cpp">
+      <Filter>src\mame\aristocrat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\aristocrat\aristmk6.cpp">
+      <Filter>src\mame\aristocrat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\aristocrat\caswin.cpp">
+      <Filter>src\mame\aristocrat</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

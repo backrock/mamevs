@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\korg">
+      <UniqueIdentifier>{D87D82BE-443E-FEF4-0D79-477279F842D1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\korg\korgds8.cpp">
+      <Filter>src\mame\korg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\korg\korgdss1.cpp">
+      <Filter>src\mame\korg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\korg\korgdvp1.cpp">
+      <Filter>src\mame\korg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\korg\korgdw8k.cpp">
+      <Filter>src\mame\korg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\korg\korgm1.cpp">
+      <Filter>src\mame\korg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\korg\korgws.cpp">
+      <Filter>src\mame\korg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\korg\korgz3.cpp">
+      <Filter>src\mame\korg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\korg\microkorg.cpp">
+      <Filter>src\mame\korg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\korg\poly800.cpp">
+      <Filter>src\mame\korg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\korg\polysix.cpp">
+      <Filter>src\mame\korg</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

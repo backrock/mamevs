@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\hegenerglaser">
+      <UniqueIdentifier>{4152D7AA-2D4C-00FD-16B9-960D02526669}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\hegenerglaser\mmboard.h">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\hegenerglaser\mmdisplay1.h">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\hegenerglaser\mmdisplay2.h">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\academy.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\amsterdam.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\berlin.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\brikett.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\glasgow.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\milano.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\mm1.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\mm2.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\mmboard.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\mmdisplay1.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\mmdisplay2.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\modena.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\modular.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\modular_tm.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\mondial.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\mondial2.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\mondial68k.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\montec.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\polgar.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\risc.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\hegenerglaser\smondial.cpp">
+      <Filter>src\mame\hegenerglaser</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\shared">
+      <UniqueIdentifier>{1CD73A7B-8862-A83F-9173-2B34FD7D0440}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\alpha68k_palette.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\awpvid.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\ballysound.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\cage.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\cclimber_a.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\cedar_magnet_board.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\dcs.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\decobsmt.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\decospr.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\efo_zsu.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\exidysound.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\fruitsamples.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\gottlieb_a.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\inder_vid.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\isbc_215g.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\mega32x.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\megacdcd.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\mitcrt.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\ms7004.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\namco_c355spr.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\pcshare.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\pk8000_v.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\rax.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\s11c_bg.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\sec.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\segam1audio.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\seibusound.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\snk68_spr.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\taito68705.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\taitosnd.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\tecmo_spr.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\teleprinter.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\timeplt_a.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\vboysound.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\vt100_kbd.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\williamssound.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\wswansound.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\xbox.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\xbox_nv2a.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\xbox_pci.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\xbox_usb.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\shared\z80bin.h">
+      <Filter>src\mame\shared</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\alpha68k_palette.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\awpvid.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\ballysound.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\cage.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\cclimber_a.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\cedar_magnet_board.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\dcs.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\decobsmt.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\decospr.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\efo_zsu.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\exidysound.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\fruitsamples.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\gottlieb_a.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\inder_vid.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\isbc_215g.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\mega32x.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\megacdcd.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\mitcrt.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\ms7004.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\namco_c355spr.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\pcshare.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\pk8000_v.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\rax.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\s11c_bg.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\sec.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\segam1audio.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\seibusound.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\snk68_spr.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\taito68705.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\taitosnd.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\tecmo_spr.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\teleprinter.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\timeplt_a.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\vboysound.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\vt100_kbd.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\williamssound.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\wswansound.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\xbox.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\xbox_nv2a.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\xbox_pci.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\xbox_usb.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\shared\z80bin.cpp">
+      <Filter>src\mame\shared</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

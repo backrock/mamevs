@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\ausnz">
+      <UniqueIdentifier>{B693208E-A261-1494-8BF5-84BA7762F0F8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\ausnz\aussiebyte.h">
+      <Filter>src\mame\ausnz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ausnz\mbee.h">
+      <Filter>src\mame\ausnz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ausnz\poly.h">
+      <Filter>src\mame\ausnz</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ausnz\super80.h">
+      <Filter>src\mame\ausnz</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\amust.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\applix.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\aussiebyte.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\aussiebyte_v.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\binbug.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\d6800.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\datum.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\dg680.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\dmax8000.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\eacc.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\eti660.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\excali64.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\labtam.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\magnum.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\mbee.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\mbee_m.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\mbee_v.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\pegasus.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\pipbug.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\poly.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\poly_m.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\proteus.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\pulsar.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\super80.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\super80_m.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\super80_v.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ausnz\tec1.cpp">
+      <Filter>src\mame\ausnz</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\grundy">
+      <UniqueIdentifier>{1ECBFC5F-8A56-6A24-9367-ED18FF71C624}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\grundy\newbrain.h">
+      <Filter>src\mame\grundy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\grundy\newbrain.cpp">
+      <Filter>src\mame\grundy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\grundy\newbrain_v.cpp">
+      <Filter>src\mame\grundy</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\subsino">
+      <UniqueIdentifier>{6882FB00-547B-1A53-7DAD-FFD76905FA5E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\subsino\subsino_crypt.h">
+      <Filter>src\mame\subsino</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\subsino\subsino_io.h">
+      <Filter>src\mame\subsino</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\subsino\lastfght.cpp">
+      <Filter>src\mame\subsino</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\subsino\subsino.cpp">
+      <Filter>src\mame\subsino</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\subsino\subsino2.cpp">
+      <Filter>src\mame\subsino</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\subsino\subsino_crypt.cpp">
+      <Filter>src\mame\subsino</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\subsino\subsino_io.cpp">
+      <Filter>src\mame\subsino</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

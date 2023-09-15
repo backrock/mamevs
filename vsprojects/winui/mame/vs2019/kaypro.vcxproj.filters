@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\kaypro">
+      <UniqueIdentifier>{DB082068-4794-8D2C-50A5-1021BCAFE92C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\kaypro\kaypro.h">
+      <Filter>src\mame\kaypro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\kaypro\kay_kbd.h">
+      <Filter>src\mame\kaypro</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\kaypro\kaypro.cpp">
+      <Filter>src\mame\kaypro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\kaypro\kaypro_m.cpp">
+      <Filter>src\mame\kaypro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\kaypro\kaypro_v.cpp">
+      <Filter>src\mame\kaypro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\kaypro\kay_kbd.cpp">
+      <Filter>src\mame\kaypro</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

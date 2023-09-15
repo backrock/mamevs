@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\misc">
+      <UniqueIdentifier>{317D83BE-9D3D-FFF4-6678-4872D2F743D1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\3do.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\ace_sp_reelctrl.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\ampoker2.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\artmagic.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\calomega.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\cave.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\coolpool.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\dcheese.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\efdt.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\esd16.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\esripsys.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\flower_a.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\gotcha.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\homedata.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\inder_sb.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\ladyfrog.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\malzak.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\micro3d.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\micro3d_a.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\multfish.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\nabupc_kbd.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\nl_cocoloco.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\norautp.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\policetr.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\misc\shangkid.h">
+      <Filter>src\mame\misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\39in1.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\3do.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\3do_m.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\4enlinea.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\4enraya.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\5clown.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\a1supply.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\acefruit.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\aces1.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\acesp.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ace_sp_reelctrl.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\age_candy.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\alinvade.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\amaticmg.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\amerihok.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ampoker2.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ampoker2_v.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\amspdwy.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\amstarz80.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\amusco.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\amuzy.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\anes.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\arachnid.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\artmagic.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\artmagic_v.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\astrafr.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\astrcorp.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\astropc.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\atronic.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\attckufo.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\avt.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\babysuprem.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\bailey.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\beaminv.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\beezer.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\belatra.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\bingoman.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\bingor.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\blitz68k.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\blocktax.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\bntyhunt.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\brglitz.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\buster.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\calomega.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\calomega_v.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cardline.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\carrera.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\castle.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cave.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cavepc.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cave_v.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cb2001.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\chameleonrx1.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\chance32.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\changyu.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\chicago.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\chsuper.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cleartone.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\clowndwn.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\clpoker.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cocoloco.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\coinmstr.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\coinmvga.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cointek.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\comebaby.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\compucranes.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\coolpool.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\corona.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cosmos_playc8f.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cowtipping.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\crazybal.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cromptons.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\crospuzl.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\crystal.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cubeqst.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cupidon.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cv1k.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cwheel.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\cybertnk.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\daryde.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dcheese.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dcheese_v.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ddz.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dfruit.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dgpix.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\diamondking.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\discoboy.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dmainevent.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dominob.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dorachan.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\drdmania.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dreamwld.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dwarfd.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dynadice.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\dynamoah.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ecoinf1.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ecoinf2.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ecoinf3.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ecoinfr.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\efdt.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\efg8080.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\electra.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\enigma2.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\epos.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\esd16.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\esd16_v.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\esh.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\esripsys.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\esripsys_v.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ettrivia.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\eva.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\extrema.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ez2d.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\falgas_m89.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\fastinvaders.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\fireball.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\flipjack.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\flower.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\flower_a.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\fortecar.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\freekick.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\freeway.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\fresh.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\funeball.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\fungames.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\funkball.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\galaxi.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\galgame.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gambl186.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gameace.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gamemasters.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gammagic.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gamtor.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gei.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gfamily.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\globalfr.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\globalvr.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gluck2.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\goldngam.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\goldnpkr.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\good.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gotcha.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gotcha_v.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gsspade.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gumbo.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\gunpey.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\h01x.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\hapyfish.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\hazelgr.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\hideseek.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\highvdeo.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\hitpoker.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\hobbyplay.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\homedata.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\homedata_v.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\hotblock.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\hotchili.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\hotstuff.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\houseball.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\imolagp.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\inder_sb.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\interflip8035.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\intrscti.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\island.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\istellar.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\itgambl2.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\itgambl3.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\itgamble.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\jackpool.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\jackpot.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\jankenmn.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\jokrwild.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\joystand.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\jubilee.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\jungleyo.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\kas89.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\katosmedz80.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\kingpin.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\kurukuru.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ladyfrog.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ladyfrog_v.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\laserbas.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\laz_aftrshok.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\laz_ribrac.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\lependu.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\limenko.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ltcasino.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\luckybal.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\magic10.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\magicard.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\magicfly.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\magictg.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\magreel.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\magtouch.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\majorpkr.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\malzak.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\malzak_v.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\marywu.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\matrix.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\mcatadv.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\mcm70.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\megaphx.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\menghong.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\meyc8080.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\meyc8088.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\mgavegas.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\micro3d.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\micro3d_a.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\micro3d_m.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\micro3d_v.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\microdar.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\mil4000.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\miniboy7.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\minivideo.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\mirax.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\mjsenpu.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\mole.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\monon_color.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\mosaic.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\mpu12wbk.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\mtu130.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\multfish.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\multfish_boot.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\murogem.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\murogmbl.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\musclem.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\nabupc.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\nabupc_kbd.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\neomania.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\neoprint.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\news.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\nexus3d.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\nibble.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\nl_cocoloco.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\norautp.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\norautp_a.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\notechan.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\nsg6809.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\nsmpoker.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\odyssey.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\oneshot.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\onetwo.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\opercoin.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\othello.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\pachifev.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\pasha2.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\pass.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\photon.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\photon2.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\piggypas.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\pipeline.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\pkscram.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\playcenter.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\plsonic4.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\pmc.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\pntnpuzl.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\poker72.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\pokerout.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\policetr.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\policetr_v.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\potgoldu.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\proconn.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\psattack.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\pse.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\quizo.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\quizpun2.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\radikaldarts.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\rawthrillspc.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\rbmk.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\rcorsair.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\re900.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\rf51w14cg.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\rfslots8085.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\rfslotsmcs48.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\rfslotspcpent.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\rgum.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\roul.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\rulechan.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\sanremmg.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\sanremo.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\savquest.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\scm_500.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\sealy.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\sealy_fr.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\sfbonus.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\shambros.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\shangkid.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\shangkid_v.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\silverball.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\skeetsht.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\skimaxx.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\skopro.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\skyarmy.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\skylncr.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\sliver.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\smd2144c.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\smotor.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\smsmcorp.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\sothello.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\spdamjes.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\spool99.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\sprcros2.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ssingles.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\sstrangr.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\startouch.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\statriv2.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\stop.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\strkzn.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\stuntair.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\su2000.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\summit.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\sumt8035.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\supertnk.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\tapatune.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\tattack.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\taxidriv.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\teamjocs.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\tecnodar.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\thayers.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\tickee.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\tmspoker.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\tomsadvs.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\toratora.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\triton.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\triviaquiz.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\trivrus.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\truco.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\trucocl.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\truesys.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\trvmadns.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\ttchamp.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\tugboat.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\tvg01.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\twinbskt.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\umipoker.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\unkgolf.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\unkhorse.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\unkpoker.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\unktop.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\usbilliards.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\usgames.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\v0bowl.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\vamphalf.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\vcombat.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\video21.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\videosaa.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\vlc.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\vlc34010.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\voyager.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\vpoker.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\vroulet.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\wildpkr.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\winbingo.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\wms.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\xtom3d.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\xyonix.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\yuvomz80.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\misc\z80ne.cpp">
+      <Filter>src\mame\misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

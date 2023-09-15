@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DDF2906E-4954-6E7C-D2C1-B42E3E22A53B}</ProjectGuid>
+    <RootNamespace>taito</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.10240.0</WindowsTargetPlatformMinVersion>
+    <Keyword>Win32Proj</Keyword>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\..\vs2019\bin\x32\Debug\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x32\Debug\taito\</IntDir>
+    <TargetName>taito</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\..\..\vs2019\bin\x64\Debug\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x64\Debug\taito\</IntDir>
+    <TargetName>taito</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\..\vs2019\bin\x32\Release\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x32\Release\taito\</IntDir>
+    <TargetName>taito</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\..\..\vs2019\bin\x64\Release\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x64\Release\taito\</IntDir>
+    <TargetName>taito</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)taito.pdb</ProgramDataBaseFileName>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)taito.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)taito.pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)taito.pdb</ProgramDataBaseFileName>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)taito.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)taito.pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)taito.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)taito.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\40love.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\arkanoid.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\bking.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\bublbobl.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\crbaloon.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\gladiatr.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\grchamp.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\gsword.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\kikikai.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\lsasquad.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\nycaptor.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\othunder.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\pc080sn.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\pc090oj.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\qix.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\slapshot.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\superchs.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\superqix.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taitoair.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taitocchip.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taitoio.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taitoio_yoke.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taitoipt.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taitojc.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taitosj.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taitosjsec.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taito_b.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taito_en.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taito_f2.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taito_f3.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taito_h.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taito_helper.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taito_l.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\taito_z.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tc0080vco.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tc0100scn.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tc0110pcr.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tc0150rod.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tc0180vcu.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tc0280grd.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tc0360pri.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tc0480scp.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tc0780fpa.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tnzs_video.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\tsamurai.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\undrfire.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\taito\wgp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\2mindril.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\40love.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\40love_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\arkanoid.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\arkanoid_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\arkanoid_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\ashnojoe.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\asuka.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\bigevglf.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\bingowav.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\bking.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\bking_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\bublbobl.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\bublbobl_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\bublbobl_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\buggychl.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\capr1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\caprcyc.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\cchance.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\chaknpop.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\champbwl.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\changela.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\cpzodiac.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\crbaloon.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\crbaloon_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\crbaloon_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\cucaracha.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\cyclemb.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\darius.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\dinoking.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\exzisus.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\fgoal.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\flstory.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\galastrm.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\gladiatr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\gladiatr_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\grchamp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\grchamp_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\grchamp_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\groundfx.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\gsword.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\gsword_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\gunbustr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\halleys.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\heromem.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\invqix.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\jollyjgr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\kikikai.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\kikikai_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\kikikai_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\ksayakyu.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\lgp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\lkage.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\lsasquad.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\lsasquad_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\lsasquad_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\marinedt.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\minivadr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\missb2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\mlanding.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\msisaac.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\ninjaw.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\nycaptor.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\nycaptor_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\opwolf.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\othunder.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\othunder_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\pc080sn.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\pc090oj.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\pitnrun.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\pkspirit.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\qix.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\qix_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\qix_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\qix_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\rastan.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\rbisland.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\retofinv.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\rollrace.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\sbmjb.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\sbowling.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\scyclone.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\slapshot.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\slapshot_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\spdheat.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\ssrj.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\superchs.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\superchs_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\superqix.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\superqix_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitoair.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitoair_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitocchip.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitoio.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitoio_yoke.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitojc.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitojc_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitopjc.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitosj.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitosjsec.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitosj_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitosj_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitottl.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitotx.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitotz.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taitowlf.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_b.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_b_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_en.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_f2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_f2_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_f3.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_f3_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_h.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_helper.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_h_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_l.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_l_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_o.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_x.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_z.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\taito_z_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tc0080vco.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tc0100scn.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tc0110pcr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tc0150rod.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tc0180vcu.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tc0280grd.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tc0360pri.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tc0480scp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tc0780fpa.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tnzs.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tnzs_video.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\topspeed.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tsamurai.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\tsamurai_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\undrfire.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\undrfire_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\vicshoot.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\volfied.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\warriorb.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\wgp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\wgp_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\taito\wyvernf0.cpp">
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

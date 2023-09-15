@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\irem">
+      <UniqueIdentifier>{327081BE-9E30-FDF4-676B-4672D3EA41D1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\irem\irem.h">
+      <Filter>src\mame\irem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\irem\iremipt.h">
+      <Filter>src\mame\irem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\irem\irem_cpu.h">
+      <Filter>src\mame\irem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\irem\m10.h">
+      <Filter>src\mame\irem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\irem\m107.h">
+      <Filter>src\mame\irem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\irem\m52.h">
+      <Filter>src\mame\irem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\irem\m57.h">
+      <Filter>src\mame\irem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\irem\m58.h">
+      <Filter>src\mame\irem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\irem\m62.h">
+      <Filter>src\mame\irem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\irem\m72.h">
+      <Filter>src\mame\irem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\irem\m72_a.h">
+      <Filter>src\mame\irem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\irem\m90.h">
+      <Filter>src\mame\irem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\irem\m92.h">
+      <Filter>src\mame\irem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\irem\nl_kidniki.h">
+      <Filter>src\mame\irem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\irem\redalert.h">
+      <Filter>src\mame\irem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\irem\redalert_a.h">
+      <Filter>src\mame\irem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\irem\travrusa.h">
+      <Filter>src\mame\irem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\irem\vigilant.h">
+      <Filter>src\mame\irem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\irem.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\irem_cpu.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m10.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m107.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m107_v.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m10_v.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m119.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m14.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m52.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m52_v.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m57.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m57_v.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m58.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m58_v.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m62.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m62_bkungfu.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m62_v.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m63.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m72.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m72_a.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m72_v.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m90.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m90_v.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m92.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\m92_v.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\nl_kidniki.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\olibochu.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\redalert.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\redalert_a.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\redalert_v.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\shisen.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\spartanxtec.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\travrusa.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\travrusa_v.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\vigilant.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\irem\vigilant_v.cpp">
+      <Filter>src\mame\irem</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

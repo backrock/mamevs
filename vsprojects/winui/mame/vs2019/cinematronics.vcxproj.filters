@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\cinematronics">
+      <UniqueIdentifier>{9440A915-803A-D267-69A7-6878554038D4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\cinematronics\cinemat.h">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\cinematronics\cinemat_a.h">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\cinematronics\jack.h">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\cinematronics\leland.h">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\cinematronics\leland_a.h">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\cinematronics\nl_armora.h">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\cinematronics\nl_barrier.h">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\cinematronics\nl_boxingb.h">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\cinematronics\nl_cinemat_common.h">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\cinematronics\nl_ripoff.h">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\cinematronics\nl_solarq.h">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\cinematronics\nl_spacewar.h">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\cinematronics\nl_speedfrk.h">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\cinematronics\nl_starcas.h">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\cinematronics\nl_starhawk.h">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\cinematronics\nl_sundance.h">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\cinematronics\nl_tailg.h">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\cinematronics\nl_warrior.h">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\cchasm.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\cinemat.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\cinemat_a.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\cinemat_v.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\dlair.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\dlair2.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\embargo.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\jack.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\jack_v.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\leland.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\leland_a.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\leland_m.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\leland_v.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\nl_armora.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\nl_barrier.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\nl_boxingb.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\nl_ripoff.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\nl_solarq.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\nl_spacewar.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\nl_speedfrk.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\nl_starcas.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\nl_starhawk.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\nl_sundance.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\nl_tailg.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\cinematronics\nl_warrior.cpp">
+      <Filter>src\mame\cinematronics</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

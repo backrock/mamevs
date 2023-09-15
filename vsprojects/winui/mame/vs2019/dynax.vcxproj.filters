@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\dynax">
+      <UniqueIdentifier>{C9F7588E-B5C5-4C94-9E59-BDBA8AC628F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\dynax\dynax.h">
+      <Filter>src\mame\dynax</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dynax\dynax_blitter_rev2.h">
+      <Filter>src\mame\dynax</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dynax\realbrk.h">
+      <Filter>src\mame\dynax</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\dynax\ddenlovr.cpp">
+      <Filter>src\mame\dynax</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dynax\dynax.cpp">
+      <Filter>src\mame\dynax</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dynax\dynax_blitter_rev2.cpp">
+      <Filter>src\mame\dynax</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dynax\dynax_v.cpp">
+      <Filter>src\mame\dynax</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dynax\hnayayoi.cpp">
+      <Filter>src\mame\dynax</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dynax\realbrk.cpp">
+      <Filter>src\mame\dynax</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dynax\realbrk_v.cpp">
+      <Filter>src\mame\dynax</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dynax\royalmah.cpp">
+      <Filter>src\mame\dynax</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

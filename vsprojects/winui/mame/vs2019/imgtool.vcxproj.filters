@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tools">
+      <UniqueIdentifier>{DA11261F-467C-DA95-8FBA-8B3BFB63B8EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tools\imgtool">
+      <UniqueIdentifier>{3163B6DA-9D79-B470-E6F0-3F92524685F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tools\imgtool\formats">
+      <UniqueIdentifier>{89B2D03A-F574-04C5-3E25-9351AA26DDA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tools\imgtool\modules">
+      <UniqueIdentifier>{A694AF54-1257-E3DE-5B07-726BC708BCBC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\tools\imgtool\main.h">
+      <Filter>src\tools\imgtool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\tools\imgtool\stream.h">
+      <Filter>src\tools\imgtool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\tools\imgtool\library.h">
+      <Filter>src\tools\imgtool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\tools\imgtool\modules.h">
+      <Filter>src\tools\imgtool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\tools\imgtool\iflopimg.h">
+      <Filter>src\tools\imgtool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\tools\imgtool\filter.h">
+      <Filter>src\tools\imgtool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\tools\imgtool\imgtool.h">
+      <Filter>src\tools\imgtool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\tools\imgtool\imgterrs.h">
+      <Filter>src\tools\imgtool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\tools\imgtool\imghd.h">
+      <Filter>src\tools\imgtool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\tools\imgtool\charconv.h">
+      <Filter>src\tools\imgtool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\tools\imgtool\formats\vt_dsk_legacy.h">
+      <Filter>src\tools\imgtool\formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\tools\imgtool\formats\coco_dsk.h">
+      <Filter>src\tools\imgtool\formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\tools\imgtool\formats\pc_dsk_legacy.h">
+      <Filter>src\tools\imgtool\formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\tools\imgtool\modules\fat.h">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\main.cpp">
+      <Filter>src\tools\imgtool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\stream.cpp">
+      <Filter>src\tools\imgtool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\library.cpp">
+      <Filter>src\tools\imgtool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules.cpp">
+      <Filter>src\tools\imgtool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\iflopimg.cpp">
+      <Filter>src\tools\imgtool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\filter.cpp">
+      <Filter>src\tools\imgtool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\filteoln.cpp">
+      <Filter>src\tools\imgtool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\filtbas.cpp">
+      <Filter>src\tools\imgtool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\imgtool.cpp">
+      <Filter>src\tools\imgtool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\imgterrs.cpp">
+      <Filter>src\tools\imgtool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\imghd.cpp">
+      <Filter>src\tools\imgtool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\charconv.cpp">
+      <Filter>src\tools\imgtool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\formats\vt_dsk_legacy.cpp">
+      <Filter>src\tools\imgtool\formats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\formats\coco_dsk.cpp">
+      <Filter>src\tools\imgtool\formats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\formats\pc_dsk_legacy.cpp">
+      <Filter>src\tools\imgtool\formats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules\amiga.cpp">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules\rsdos.cpp">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules\dgndos.cpp">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules\os9.cpp">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules\ti99.cpp">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules\ti990hd.cpp">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules\concept.cpp">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules\fat.cpp">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules\pc_flop.cpp">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules\pc_hard.cpp">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules\vzdos.cpp">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules\thomson.cpp">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules\cybiko.cpp">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules\cybikoxt.cpp">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules\psion.cpp">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules\bml3.cpp">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules\hp48.cpp">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules\hp9845_tape.cpp">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules\hp85_tape.cpp">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\tools\imgtool\modules\rt11.cpp">
+      <Filter>src\tools\imgtool\modules</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

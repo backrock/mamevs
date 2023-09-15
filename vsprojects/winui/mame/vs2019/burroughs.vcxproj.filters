@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\burroughs">
+      <UniqueIdentifier>{4634613F-3218-2295-9B78-1CE8877B0C17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\burroughs\anzterm.cpp">
+      <Filter>src\mame\burroughs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\burroughs\td831.cpp">
+      <Filter>src\mame\burroughs</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

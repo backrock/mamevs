@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\sgi">
+      <UniqueIdentifier>{483480EE-3497-0F93-DD1C-4849C95EDB15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\sgi\crime.h">
+      <Filter>src\mame\sgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sgi\ctl1.h">
+      <Filter>src\mame\sgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sgi\hal2.h">
+      <Filter>src\mame\sgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sgi\hpc1.h">
+      <Filter>src\mame\sgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sgi\hpc3.h">
+      <Filter>src\mame\sgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sgi\int2.h">
+      <Filter>src\mame\sgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sgi\ioc2.h">
+      <Filter>src\mame\sgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sgi\kbd.h">
+      <Filter>src\mame\sgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sgi\light.h">
+      <Filter>src\mame\sgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sgi\mace.h">
+      <Filter>src\mame\sgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sgi\mc.h">
+      <Filter>src\mame\sgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sgi\pic1.h">
+      <Filter>src\mame\sgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sgi\sgi_ge5.h">
+      <Filter>src\mame\sgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sgi\sgi_gr1.h">
+      <Filter>src\mame\sgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sgi\sgi_re2.h">
+      <Filter>src\mame\sgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sgi\sgi_xmap2.h">
+      <Filter>src\mame\sgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sgi\vc1.h">
+      <Filter>src\mame\sgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sgi\vino.h">
+      <Filter>src\mame\sgi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\crime.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\crimson.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\ctl1.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\hal2.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\hpc1.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\hpc3.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\indy_indigo2.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\int2.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\ioc2.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\ip12.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\ip20.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\ip4.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\ip6.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\iris3130.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\iris_power.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\kbd.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\light.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\mace.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\mc.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\o2.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\octane.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\pic1.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\sgi_ge5.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\sgi_gr1.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\sgi_re2.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\sgi_xmap2.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\vc1.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sgi\vino.cpp">
+      <Filter>src\mame\sgi</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

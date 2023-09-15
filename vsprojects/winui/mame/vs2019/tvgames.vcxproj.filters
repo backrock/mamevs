@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\tvgames">
+      <UniqueIdentifier>{5C939B50-488C-BAA2-71BE-9F275D169AAE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\bl_handhelds_lcdc.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\elan_ep3a19asys.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\elan_eu3a05commonsys.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\elan_eu3a05commonvid.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\elan_eu3a05gpio.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\elan_eu3a05sys.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\elan_eu3a05vid.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\elan_eu3a05_a.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\elan_eu3a14sys.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\elan_eu3a14vid.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\generalplus_gpl16250.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\generalplus_gpl16250_m.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\generalplus_gpl16250_nand.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\generalplus_gpl16250_romram.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\hyperscan_card.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\hyperscan_ctrl.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\spg2xx.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\xavix.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\xavix2002_io.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\xavix_2000.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\xavix_2002.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\xavix_adc.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\xavix_anport.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\xavix_io.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\xavix_madfb_ball.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\xavix_math.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tvgames\xavix_mtrk_wheel.h">
+      <Filter>src\mame\tvgames</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\actions_atj2279b.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\bl_handhelds_lcdc.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\elan_ep3a19a.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\elan_ep3a19asys.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\elan_eu3a05.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\elan_eu3a05commonsys.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\elan_eu3a05commonvid.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\elan_eu3a05gpio.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\elan_eu3a05sys.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\elan_eu3a05vid.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\elan_eu3a05_a.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\elan_eu3a14.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\elan_eu3a14sys.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\elan_eu3a14vid.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\generalplus_gpl16250.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\generalplus_gpl16250_m.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\generalplus_gpl16250_mobigo.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\generalplus_gpl16250_nand.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\generalplus_gpl16250_rom.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\generalplus_gpl16250_romram.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\generalplus_gpl16250_spi.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\generalplus_gpl16250_spi_direct.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\generalplus_gpl162xx_lcdtype.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\generalplus_gpl32612.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\generalplus_gpl_unknown.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\hyperscan_card.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\hyperscan_ctrl.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\magiceyes_pollux_vr3520f.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\micom_mahjong.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\monkey_king_3b.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\pubint_storyreader.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg110.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg29x.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg29x_lexibook_jg7425.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_digimake.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_dreamlife.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_ican.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_jakks.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_jakks_gkr.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_jakks_sharp.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_jakks_tvtouch.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_lexibook.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_mysprtch.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_pdc.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_playvision.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_senario.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_senario_poker.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_senca.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_shredmjr.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_skannerztv.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_smarttv.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_telestory.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_tvgogo.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_vii.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_wiwi.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\spg2xx_zone.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\st2302u_bbl_rom.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\st2302u_bbl_spi.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\titan_soc.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\trkfldch.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\tvgame.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\xavix.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\xavix2.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\xavix2002_io.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\xavix_2000.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\xavix_2002.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\xavix_a.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\xavix_adc.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\xavix_anport.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\xavix_io.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\xavix_m.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\xavix_madfb_ball.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\xavix_math.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\xavix_mtrk_wheel.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tvgames\xavix_v.cpp">
+      <Filter>src\mame\tvgames</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

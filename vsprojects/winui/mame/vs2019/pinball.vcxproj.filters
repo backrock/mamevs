@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\pinball">
+      <UniqueIdentifier>{E795DEFE-D38E-FD50-FCC0-E2D5E818DD5C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\decodmd1.h">
+      <Filter>src\mame\pinball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\decodmd2.h">
+      <Filter>src\mame\pinball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\decodmd3.h">
+      <Filter>src\mame\pinball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\decopincpu.h">
+      <Filter>src\mame\pinball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\genpin.h">
+      <Filter>src\mame\pinball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\pinsnd88.h">
+      <Filter>src\mame\pinball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\s11.h">
+      <Filter>src\mame\pinball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\wpc.h">
+      <Filter>src\mame\pinball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\wpcsnd.h">
+      <Filter>src\mame\pinball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\wpc_dmd.h">
+      <Filter>src\mame\pinball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\wpc_dot.h">
+      <Filter>src\mame\pinball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\wpc_lamp.h">
+      <Filter>src\mame\pinball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\wpc_out.h">
+      <Filter>src\mame\pinball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\wpc_pic.h">
+      <Filter>src\mame\pinball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\pinball\wpc_shift.h">
+      <Filter>src\mame\pinball</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\allied.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\alvg.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\atari_4x4.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\atari_s1.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\atari_s2.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\barni.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\bingo.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\by17.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\by35.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\by6803.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\by68701.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\byvid.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\capcom.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\decodmd1.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\decodmd2.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\decodmd3.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\decopincpu.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\de_2.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\de_3.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\flicker.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\g627.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\genpin.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\gp_1.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\gp_2.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\gts1.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\gts3.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\gts3a.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\gts80.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\gts80a.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\gts80b.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\hankin.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\icecold.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\idsa.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\inder.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\inderp.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\jeutel.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\joctronic.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\jp.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\jvh.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\kissproto.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\lancelot.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\lckydraw.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\ltd.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\macp.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\mephistp.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\micropin.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\missamer.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\mrgame.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\newcanasta.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\nsm.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\peyper.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\pinsnd88.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\play_1.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\play_2.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\play_3.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\recel.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\rowamet.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\s11.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\s11a.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\s11b.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\s11c.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\s3.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\s4.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\s6.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\s7.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\s8.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\s9.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\sam.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\sleic.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\spectra.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\spike.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\spinb.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\spirit76.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\stargame.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\st_mp100.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\st_mp200.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\supstarf.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\taito.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\techno.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\vd.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\whitestar.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wico.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wms_shuffle.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpcsnd.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_95.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_an.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_dcs.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_dmd.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_dot.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_flip1.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_flip2.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_lamp.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_out.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_pic.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_s.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\wpc_shift.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\zac_1.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\zac_2.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\zac_proto.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pinball\zpinball.cpp">
+      <Filter>src\mame\pinball</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\sigma">
+      <UniqueIdentifier>{F6845F8F-E252-5395-CBE6-C3BBB7532FFA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\sigma\spiders.h">
+      <Filter>src\mame\sigma</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\sigma\nyny.cpp">
+      <Filter>src\mame\sigma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sigma\r2dtank.cpp">
+      <Filter>src\mame\sigma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sigma\sigma21.cpp">
+      <Filter>src\mame\sigma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sigma\sigmab31.cpp">
+      <Filter>src\mame\sigma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sigma\sigmab52.cpp">
+      <Filter>src\mame\sigma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sigma\sigmab98.cpp">
+      <Filter>src\mame\sigma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sigma\spiders.cpp">
+      <Filter>src\mame\sigma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sigma\spiders_a.cpp">
+      <Filter>src\mame\sigma</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

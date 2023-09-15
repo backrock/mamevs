@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\omnibyte">
+      <UniqueIdentifier>{8CE1D722-F8F7-D5B8-416F-61DAADC4A640}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\omnibyte\ob68k1a.h">
+      <Filter>src\mame\omnibyte</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\omnibyte\msbc1.cpp">
+      <Filter>src\mame\omnibyte</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\omnibyte\ob68k1a.cpp">
+      <Filter>src\mame\omnibyte</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

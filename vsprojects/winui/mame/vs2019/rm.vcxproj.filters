@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\rm">
+      <UniqueIdentifier>{E4B34945-5069-C23A-D95D-BC114512B93E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\rm\rm380z.h">
+      <Filter>src\mame\rm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\rm\rmnimbus.h">
+      <Filter>src\mame\rm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\rm\rmnkbd.h">
+      <Filter>src\mame\rm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\rm\rm380z.cpp">
+      <Filter>src\mame\rm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\rm\rm380z_m.cpp">
+      <Filter>src\mame\rm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\rm\rm380z_v.cpp">
+      <Filter>src\mame\rm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\rm\rmnimbus.cpp">
+      <Filter>src\mame\rm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\rm\rmnimbus_m.cpp">
+      <Filter>src\mame\rm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\rm\rmnimbus_v.cpp">
+      <Filter>src\mame\rm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\rm\rmnkbd.cpp">
+      <Filter>src\mame\rm</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

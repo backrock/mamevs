@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\sfrj">
+      <UniqueIdentifier>{9ABA86BE-067B-02F5-CFB5-4B723B3547D1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\sfrj\galaxy.cpp">
+      <Filter>src\mame\sfrj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sfrj\galeb.cpp">
+      <Filter>src\mame\sfrj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sfrj\idpartner.cpp">
+      <Filter>src\mame\sfrj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sfrj\lola8a.cpp">
+      <Filter>src\mame\sfrj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sfrj\orao.cpp">
+      <Filter>src\mame\sfrj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sfrj\pecom.cpp">
+      <Filter>src\mame\sfrj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sfrj\tim011.cpp">
+      <Filter>src\mame\sfrj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sfrj\tim100.cpp">
+      <Filter>src\mame\sfrj</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

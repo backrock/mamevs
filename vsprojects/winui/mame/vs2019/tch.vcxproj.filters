@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\tch">
+      <UniqueIdentifier>{043880EE-F09A-0F93-9920-48498562DB15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\tch\kickgoal.h">
+      <Filter>src\mame\tch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\tch\rltennis.h">
+      <Filter>src\mame\tch</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\tch\kickgoal.cpp">
+      <Filter>src\mame\tch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tch\kickgoal_v.cpp">
+      <Filter>src\mame\tch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tch\littlerb.cpp">
+      <Filter>src\mame\tch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tch\rltennis.cpp">
+      <Filter>src\mame\tch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tch\rltennis_v.cpp">
+      <Filter>src\mame\tch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tch\speedspn.cpp">
+      <Filter>src\mame\tch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tch\topdrive.cpp">
+      <Filter>src\mame\tch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\tch\wheelfir.cpp">
+      <Filter>src\mame\tch</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

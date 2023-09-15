@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\pc">
+      <UniqueIdentifier>{98B34945-0469-C23A-8D5D-BC11F911B93E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\pc\europc_kbd.h">
+      <Filter>src\mame\pc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\pc\kb_7007_3.h">
+      <Filter>src\mame\pc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\pc\kb_poisk1.h">
+      <Filter>src\mame\pc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\pc\nforcepc.h">
+      <Filter>src\mame\pc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\pc\pc_t1t.h">
+      <Filter>src\mame\pc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\pc\tosh1000_bram.h">
+      <Filter>src\mame\pc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\asst128.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\at.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\atpci.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\calchase.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\compc.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\ct486.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\ec184x.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\europc.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\europc_kbd.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\fruitpc.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\genpc.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\ibmpc.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\ibmpcjr.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\igspc.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\iskr103x.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\mc1502.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\nforcepc.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\pangofun.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\paokaipc.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\pc.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\pcat_dyn.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\pcat_nit.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\pcipc.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\pcipc_sis.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\pcxt.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\pc_t1t.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\poisk1.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\ps2.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\quakeat.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\queen.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\sis630.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\tandy1t.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\tosh1000.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pc\tosh1000_bram.cpp">
+      <Filter>src\mame\pc</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\valadon">
+      <UniqueIdentifier>{2A0DEEB9-1606-0D0C-3F38-F2902B90EC17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\valadon\bagman.h">
+      <Filter>src\mame\valadon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\valadon\bagman.cpp">
+      <Filter>src\mame\valadon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\valadon\bagman_m.cpp">
+      <Filter>src\mame\valadon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\valadon\bagman_v.cpp">
+      <Filter>src\mame\valadon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\valadon\tankbust.cpp">
+      <Filter>src\mame\valadon</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

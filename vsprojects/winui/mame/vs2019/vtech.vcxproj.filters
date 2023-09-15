@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\vtech">
+      <UniqueIdentifier>{DFCC9B8F-CB9A-8F95-B42E-00BCA09B6BFA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\vtech\crvision.h">
+      <Filter>src\mame\vtech</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\vtech\nl_gamemachine.h">
+      <Filter>src\mame\vtech</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\vtech\pc4.h">
+      <Filter>src\mame\vtech</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\vtech\socrates_a.h">
+      <Filter>src\mame\vtech</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\vtech\vsmile.h">
+      <Filter>src\mame\vtech</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\vtech\vtech2.h">
+      <Filter>src\mame\vtech</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\clickstart.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\crvision.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\gamemachine.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\geniusiq.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\geniusjr.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\gkidabc.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\glcx.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\innotv_innotabmax.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\inteladv.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\iqunlim.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\laser3k.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\lcmate2.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\nl_gamemachine.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\pc1000.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\pc2000.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\pc4.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\pc4_v.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\phusion.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\prestige.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\socrates.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\socrates_a.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\storio.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\vsmile.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\vsmileb.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\vtech1.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\vtech2.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\vtech2_m.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\vtech2_v.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\vtech_eu3a12.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\vtech\vtech_innotab.cpp">
+      <Filter>src\mame\vtech</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\olivetti">
+      <UniqueIdentifier>{15A820CB-81BE-1E61-CA35-AA82368BEFE8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\olivetti\m20_8086.h">
+      <Filter>src\mame\olivetti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\olivetti\m20_kbd.h">
+      <Filter>src\mame\olivetti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\olivetti\m24_kbd.h">
+      <Filter>src\mame\olivetti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\olivetti\m24_z8000.h">
+      <Filter>src\mame\olivetti</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\olivetti\m20.cpp">
+      <Filter>src\mame\olivetti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\olivetti\m20_8086.cpp">
+      <Filter>src\mame\olivetti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\olivetti\m20_kbd.cpp">
+      <Filter>src\mame\olivetti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\olivetti\m24.cpp">
+      <Filter>src\mame\olivetti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\olivetti\m24_kbd.cpp">
+      <Filter>src\mame\olivetti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\olivetti\m24_z8000.cpp">
+      <Filter>src\mame\olivetti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\olivetti\olivpc1.cpp">
+      <Filter>src\mame\olivetti</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

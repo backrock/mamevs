@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\playmark">
+      <UniqueIdentifier>{6693F3A4-D2A9-F13A-1B21-7D5C8776C2C2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\playmark\playmark.h">
+      <Filter>src\mame\playmark</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\playmark\sslam.h">
+      <Filter>src\mame\playmark</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\playmark\drtomy.cpp">
+      <Filter>src\mame\playmark</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\playmark\playmark.cpp">
+      <Filter>src\mame\playmark</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\playmark\playmark_v.cpp">
+      <Filter>src\mame\playmark</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\playmark\powerbal.cpp">
+      <Filter>src\mame\playmark</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\playmark\sderby.cpp">
+      <Filter>src\mame\playmark</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\playmark\sslam.cpp">
+      <Filter>src\mame\playmark</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\playmark\sslam_v.cpp">
+      <Filter>src\mame\playmark</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

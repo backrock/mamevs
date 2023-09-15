@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\maygay">
+      <UniqueIdentifier>{AD31CA6C-19BD-3731-22CE-BA258ED89331}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\maygay\maygay1b.h">
+      <Filter>src\mame\maygay</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\maygay\maygay1b.cpp">
+      <Filter>src\mame\maygay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\maygay\maygay1bsw.cpp">
+      <Filter>src\mame\maygay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\maygay\maygayep.cpp">
+      <Filter>src\mame\maygay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\maygay\maygayew.cpp">
+      <Filter>src\mame\maygay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\maygay\maygayv1.cpp">
+      <Filter>src\mame\maygay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\maygay\mmm.cpp">
+      <Filter>src\mame\maygay</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

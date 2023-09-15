@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{41865835-2D80-8187-16ED-17980286E7F3}</ProjectGuid>
+    <RootNamespace>skeleton</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.10240.0</WindowsTargetPlatformMinVersion>
+    <Keyword>Win32Proj</Keyword>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\..\vs2019\bin\x32\Debug\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x32\Debug\skeleton\</IntDir>
+    <TargetName>skeleton</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\..\..\vs2019\bin\x64\Debug\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x64\Debug\skeleton\</IntDir>
+    <TargetName>skeleton</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\..\vs2019\bin\x32\Release\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x32\Release\skeleton\</IntDir>
+    <TargetName>skeleton</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\..\..\vs2019\bin\x64\Release\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x64\Release\skeleton\</IntDir>
+    <TargetName>skeleton</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)skeleton.pdb</ProgramDataBaseFileName>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)skeleton.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)skeleton.pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)skeleton.pdb</ProgramDataBaseFileName>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)skeleton.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)skeleton.pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)skeleton.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)skeleton.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\alfaskop_s41_kb.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\ampex210_kbd.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\basf7100_kbd.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\busicom.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\cosmicos.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\cxhumax.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\digilog_kbd.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\dim68k_kbd.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\dm7000.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\dmv_keyb.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\itt1700_kbd.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\micronic.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\ngen_kb.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\nl_hazelvid.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\nl_palestra.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\nl_tp1983.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\nl_tp1985.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\softbox.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\vp415.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\xor100.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\zorba.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\skeleton\zorbakbd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\600cat.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\aaa.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\acd.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\aceex.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\adacp150.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\adds2020.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\aid80f.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\airbase99.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\alcat7100.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\alesis_qs.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\alfaskop41xx.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\alfaskop_s41_kb.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\alphasma.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\alphasma3k.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\am1000.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ampex.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ampex210.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ampex210_kbd.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\antonelli_hd6305.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\argox.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\attache.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ax20.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\basf7100.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\basf7100_kbd.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\bert.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\bitgraph.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\blit.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\bolsaint.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\bpmmicro.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\br8641.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\busicom.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\busicom_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\c2color.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\candela.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\caramball.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cardinal.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cbnt2039.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cd100.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cd2650.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cdc721.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cdsys5.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cit1500.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ckz80.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\clxvme186.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\codata.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\consola_emt.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\controlid.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cortex.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cosmicos.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cp1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ct909e_segadvd.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\cxhumax.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\d400.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\daruma.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\datacast.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\design.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\diablo1300.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\didact.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\digel804.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\digiblast.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\digijet.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\digilog320.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\digilog400.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\digilog_kbd.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\digitech_gsp5.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\dim68k.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\dim68k_kbd.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\dm7000.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\dmv.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\dmv_keyb.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\dps1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\dsb46.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\dual68.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\e100.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\easy_karaoke.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\elcirculo.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\elzet80.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\epic14e.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\esprit.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\eurit.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\eurocom2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\fanucs15.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\fanucspmg.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\fc100.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\fk1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\fs3216.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ft68m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\gem_rp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\gimix.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\gm1000.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\gnat10.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\goupil.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\grfd2301.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\happyvideo.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\hazeltin.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\hazl1420.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\hohnadam.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\hprot1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ht68k.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\i7000.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\icatel.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\icebox.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\iez80.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\if800.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ikt5a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\imsai.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\indiana.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\is48x.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\itc4.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\itt1700.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\itt1700_kbd.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\itt3030.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\itt9216.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\jade.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\jonos.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\juku.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\junior80.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\kron.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\learnwin.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\lee1214.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\lee1220.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\lft.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\lg-dvd.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\lilith.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\lms46.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mes.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mfabfz.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mice.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\micral.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\micro20.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\micromon.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\micronic.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mightyframe.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\milwaukee.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mindset.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mini2440.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\miniframe.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\minihock.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\miuchiz.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ml20.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mmd1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mmd2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mod8.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\modellot.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\molecular.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ms9540.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mstation.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mt735.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mtd1256.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mw4pole.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mx2178.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\mycom.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ngen.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ngen_kb.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\nl_hazelvid.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\nl_palestra.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\nl_tp1983.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\nl_tp1985.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\onyx.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\p8k.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\palestra.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\pdt3100.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\pegasos2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\pencil2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\perq.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\pes.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\philipsbo.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\picno.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\plan80.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\pm68k.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\pockchal.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\proteus3.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\pt68k4.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ptcsol.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\pv9234.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\pwp14.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\qtsbc.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\rd100.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\rvoice.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\sacstate.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\sansa_fuze.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\sartorius.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\sb180.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\sb8085.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\sbrain.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\scopus.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\seattlecmp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\semcrossw.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\sh4robot.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\shine.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\si5500.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\sk101bl.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\slsstars.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\softbox.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\solbourne.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\squale.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\swyft.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\symbolics.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\synthex.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\sys2900.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\sys9002.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\systec.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\systel1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\tavernie.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\tecnbras.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\teleray10.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\telex1192.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\telex274.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\telex277d.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\terak.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\terco.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\terminal.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\testpat.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\textelcomp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\ti630.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\tk635.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\tnshc08.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\tr175.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\tsispch.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\tulip1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\tvcobrasd.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\unistar.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\v6809.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\vanguardmk1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\vd56sp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\vector3.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\vectrix.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\vp415.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\vp60.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\vsmilepro.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\wicat.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\xbase09.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\xor100.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\zeebo_qualcomm_adreno130.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\zms8085.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\zorba.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\zorbakbd.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\skeleton\zt8802.cpp">
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

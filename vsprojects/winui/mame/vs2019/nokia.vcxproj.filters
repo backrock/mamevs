@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\nokia">
+      <UniqueIdentifier>{3765088F-2333-FC94-0CC7-6CBBF833D8F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\nokia\mikromik.h">
+      <Filter>src\mame\nokia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nokia\mm1kb.h">
+      <Filter>src\mame\nokia</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\nokia\dbox.cpp">
+      <Filter>src\mame\nokia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nokia\mikromik.cpp">
+      <Filter>src\mame\nokia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nokia\mikromik_v.cpp">
+      <Filter>src\mame\nokia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nokia\mm1kb.cpp">
+      <Filter>src\mame\nokia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nokia\nokia_3310.cpp">
+      <Filter>src\mame\nokia</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\sega">
+      <UniqueIdentifier>{E5B486BE-5175-02F5-1AB0-4B72862F47D1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\src\mame\sega\model2rd.ipp">
+      <Filter>src\mame\sega</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\315-5838_317-0229_comp.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\315-5881_crypt.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\315-6154.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\315_5195.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\315_5296.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\315_5338a.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\315_5649.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\awboard.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\bingoct.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\dc-ctrl.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\dc.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\dccons.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\dc_atomiswave.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\dc_g2if.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\dsbz80.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\fd1089.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\fd1094.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\gunsense.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\jvs13551.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\m1comm.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\m2comm.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\m3comm.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\maple-dc.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\mapledev.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\mdconsole.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\mdioport.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\megacd.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\megadriv.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\megadriv_acbl.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\mie.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\model1.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\model1io.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\model1io2.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\model2.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\model3.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\naomi.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\naomibd.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\naomig1.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\naomigd.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\naomim1.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\naomim2.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\naomim4.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\naomirom.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\nl_astrob.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\nl_brdrline.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\nl_elim.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\nl_frogs.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\nl_segas16b.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\nl_segaspeech.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\nl_segausb.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\nl_spacfury.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\powervr2.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\s32comm.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\saturn.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\saturn_cdb.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\sega16sp.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segabb.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segabill.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segag80.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segag80r.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segag80r_a.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segag80v.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segag80_m.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segahang.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segaic16.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segaic16_m.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segaic16_road.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segaic24.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segaipt.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segaorun.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segas16a.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segas16b.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segas18.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segas24.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segas32.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segashiobd.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segaspeech.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segausb.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segaxbd.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\segaybd.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\sms.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\stv.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\system1.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\system16.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\turbo.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\vicdual-97269pb.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\vicdual-97271p.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\vicdual.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\vicdual_a.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\sega\zaxxon.h">
+      <Filter>src\mame\sega</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\315-5838_317-0229_comp.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\315-5881_crypt.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\315-6154.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\315_5195.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\315_5296.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\315_5338a.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\315_5649.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\angelkds.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\anyworks.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\awboard.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\bingoc.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\bingoct.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\blockade.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\calcune.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\calorie.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\chihiro.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\coolridr.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\dc-ctrl.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\dc.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\dccons.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\dccons_m.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\dc_atomiswave.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\dc_g2if.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\deniam.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\dotrikun.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\dsbz80.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\eshockey.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\fd1089.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\fd1094.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\flashbeats.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\fwheel.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\gpworld.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\gunsense.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\hikaru.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\hshavoc.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\jvs13551.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\kopunch.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\lindbergh.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\m1comm.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\m2comm.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\m3comm.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\maple-dc.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\mapledev.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\mdconsole.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\mdioport.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\megacd.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\megadriv.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\megadriv_acbl.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\megadriv_rad.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\megadriv_sunmix.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\megadriv_sunplus_hybrid.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\megadriv_vt_hybrid.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\megaplay.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\megatech.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\mie.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\model1.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\model1io.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\model1io2.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\model1_m.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\model1_v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\model2.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\model2_m.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\model2_v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\model3.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\model3_m.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\model3_v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\monacogp.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\naomi.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\naomibd.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\naomig1.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\naomigd.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\naomim1.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\naomim2.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\naomim4.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\naomirom.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\nl_astrob.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\nl_brdrline.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\nl_elim.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\nl_frogs.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\nl_segas16b.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\nl_segaspeech.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\nl_segausb.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\nl_spacfury.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\powervr2.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\puckpkmn.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\s32comm.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\saturn.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\saturn_cdb.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\saturn_m.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\saturn_v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\sderby2.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\sega16sp.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segaatom.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segabb.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segabill.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segac2.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segacoin.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segae.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segafruit.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segag80.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segag80r.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segag80r_a.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segag80r_v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segag80v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segag80v_v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segag80_m.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segahang.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segahang_v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segaic16.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segaic16_m.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segaic16_road.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segaic24.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segajw.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segald.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segaorun.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segaorun_v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segapico.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segapm.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segas16a.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segas16a_v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segas16b.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segas16b_isgsm.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segas16b_v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segas18.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segas18_astormbl.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segas18_v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segas24.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segas24_v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segas32.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segas32_m.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segas32_v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segashiobd.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segasm1.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segasp.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segaspeech.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segattl.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segaufo.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segaufoh8.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segausb.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segaxbd.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segaxbd_v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segaybd.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\segaybd_v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\sega_beena.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\sega_sawatte.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\sg1000.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\sg1000a.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\shtzone.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\sms.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\sms_bootleg.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\sms_m.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\speedbsk.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\stactics.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\stv.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\suprloco.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\svmu.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\system1.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\system16.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\system16_v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\system1_v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\timetrv.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\triforce.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\turbo.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\turbo_a.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\turbo_v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\unkhockey.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\vicdual-97269pb.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\vicdual-97271p.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\vicdual.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\vicdual_a.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\vicdual_v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\winclub.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\y2.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\zaxxon.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\zaxxon_a.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\sega\zaxxon_v.cpp">
+      <Filter>src\mame\sega</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\pce">
+      <UniqueIdentifier>{FD2680EE-E989-0F93-920F-48497E51DB15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\pce\pcecommn.h">
+      <Filter>src\mame\pce</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\pce\ggconnie.cpp">
+      <Filter>src\mame\pce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pce\paranoia.cpp">
+      <Filter>src\mame\pce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pce\pcecommn.cpp">
+      <Filter>src\mame\pce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pce\tourvis.cpp">
+      <Filter>src\mame\pce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\pce\uapce.cpp">
+      <Filter>src\mame\pce</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\alpha">
+      <UniqueIdentifier>{AB961B8E-9764-0F94-80F8-7FBA6C65EBF8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\alpha\ad_sound.h">
+      <Filter>src\mame\alpha</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\alpha\alpha68k.h">
+      <Filter>src\mame\alpha</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\alpha\alpha8201.h">
+      <Filter>src\mame\alpha</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\alpha\ad_sound.cpp">
+      <Filter>src\mame\alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\alpha\alpha68k.cpp">
+      <Filter>src\mame\alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\alpha\alpha68k_i.cpp">
+      <Filter>src\mame\alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\alpha\alpha68k_n.cpp">
+      <Filter>src\mame\alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\alpha\alpha68k_v.cpp">
+      <Filter>src\mame\alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\alpha\alpha8201.cpp">
+      <Filter>src\mame\alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\alpha\champbas.cpp">
+      <Filter>src\mame\alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\alpha\equites.cpp">
+      <Filter>src\mame\alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\alpha\meijinsn.cpp">
+      <Filter>src\mame\alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\alpha\shougi.cpp">
+      <Filter>src\mame\alpha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\alpha\splendor.cpp">
+      <Filter>src\mame\alpha</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

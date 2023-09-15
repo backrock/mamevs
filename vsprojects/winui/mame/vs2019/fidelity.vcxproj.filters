@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\fidelity">
+      <UniqueIdentifier>{1FB20789-8BC8-051F-D43F-91404095D6A6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\fidelity\clockdiv.h">
+      <Filter>src\mame\fidelity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\as12.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\card.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\cc1.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\cc10.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\cc7.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\checkc2.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\chesster.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\clockdiv.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\csc.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\dames.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\desdis.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\eag68k.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\eldorado.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\elite.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\excel.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\msc.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\phantom.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\sc12.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\sc6.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\sc8.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\sc9.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\vcc.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\fidelity\vsc.cpp">
+      <Filter>src\mame\fidelity</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

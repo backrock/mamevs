@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\act">
+      <UniqueIdentifier>{3DE77FEE-294A-0F93-D2CF-4749BE11DB15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\act\apricotkb.h">
+      <Filter>src\mame\act</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\act\victor9k_fdc.h">
+      <Filter>src\mame\act</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\act\victor9k_kb.h">
+      <Filter>src\mame\act</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\act\apricot.cpp">
+      <Filter>src\mame\act</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\act\apricotf.cpp">
+      <Filter>src\mame\act</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\act\apricotkb.cpp">
+      <Filter>src\mame\act</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\act\apricotp.cpp">
+      <Filter>src\mame\act</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\act\apxen.cpp">
+      <Filter>src\mame\act</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\act\victor9k.cpp">
+      <Filter>src\mame\act</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\act\victor9k_fdc.cpp">
+      <Filter>src\mame\act</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\act\victor9k_kb.cpp">
+      <Filter>src\mame\act</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

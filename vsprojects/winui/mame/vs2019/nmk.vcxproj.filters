@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\nmk">
+      <UniqueIdentifier>{CB1F80EE-B782-0F93-6008-48494C4ADB15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\nmk\nmk004.h">
+      <Filter>src\mame\nmk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nmk\nmk16.h">
+      <Filter>src\mame\nmk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nmk\nmk16spr.h">
+      <Filter>src\mame\nmk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nmk\powerins.h">
+      <Filter>src\mame\nmk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\nmk\cultures.cpp">
+      <Filter>src\mame\nmk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nmk\ddealer.cpp">
+      <Filter>src\mame\nmk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nmk\macrossp.cpp">
+      <Filter>src\mame\nmk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nmk\nmk004.cpp">
+      <Filter>src\mame\nmk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nmk\nmk16.cpp">
+      <Filter>src\mame\nmk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nmk\nmk16spr.cpp">
+      <Filter>src\mame\nmk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nmk\nmk16_v.cpp">
+      <Filter>src\mame\nmk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nmk\nmkmedal.cpp">
+      <Filter>src\mame\nmk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nmk\powerins.cpp">
+      <Filter>src\mame\nmk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nmk\powerins_v.cpp">
+      <Filter>src\mame\nmk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nmk\quizdna.cpp">
+      <Filter>src\mame\nmk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nmk\quizpani.cpp">
+      <Filter>src\mame\nmk</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

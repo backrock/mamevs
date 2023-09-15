@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\commodore">
+      <UniqueIdentifier>{EA7DBC9D-D661-7DF3-3FC2-77462BC56775}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\commodore\c65.h">
+      <Filter>src\mame\commodore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\commodore\cbm_snqk.h">
+      <Filter>src\mame\commodore</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\commodore\c128.cpp">
+      <Filter>src\mame\commodore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\commodore\c64.cpp">
+      <Filter>src\mame\commodore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\commodore\c64dtv.cpp">
+      <Filter>src\mame\commodore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\commodore\c65.cpp">
+      <Filter>src\mame\commodore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\commodore\c900.cpp">
+      <Filter>src\mame\commodore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\commodore\cbm2.cpp">
+      <Filter>src\mame\commodore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\commodore\cbm_snqk.cpp">
+      <Filter>src\mame\commodore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\commodore\chessmate.cpp">
+      <Filter>src\mame\commodore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\commodore\clcd.cpp">
+      <Filter>src\mame\commodore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\commodore\kim1.cpp">
+      <Filter>src\mame\commodore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\commodore\mps1230.cpp">
+      <Filter>src\mame\commodore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\commodore\pet.cpp">
+      <Filter>src\mame\commodore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\commodore\plus4.cpp">
+      <Filter>src\mame\commodore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\commodore\vic10.cpp">
+      <Filter>src\mame\commodore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\commodore\vic20.cpp">
+      <Filter>src\mame\commodore</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

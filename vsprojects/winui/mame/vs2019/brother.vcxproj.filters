@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\brother">
+      <UniqueIdentifier>{3BC549DE-27BE-6830-50F0-4DB53C48483C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\brother\ax145.cpp">
+      <Filter>src\mame\brother</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\brother\lw30.cpp">
+      <Filter>src\mame\brother</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\brother\lw350.cpp">
+      <Filter>src\mame\brother</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\brother\lw700i.cpp">
+      <Filter>src\mame\brother</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\brother\lw840.cpp">
+      <Filter>src\mame\brother</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

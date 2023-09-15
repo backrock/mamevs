@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\phoenix">
+      <UniqueIdentifier>{E0619DFC-CC5A-BC4E-F58C-A1D3E1E49B5A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\phoenix\naughtyb.h">
+      <Filter>src\mame\phoenix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\phoenix\phoenix.h">
+      <Filter>src\mame\phoenix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\phoenix\phoenix_a.h">
+      <Filter>src\mame\phoenix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\phoenix\pleiads.h">
+      <Filter>src\mame\phoenix</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\phoenix\naughtyb.cpp">
+      <Filter>src\mame\phoenix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\phoenix\naughtyb_v.cpp">
+      <Filter>src\mame\phoenix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\phoenix\phoenix.cpp">
+      <Filter>src\mame\phoenix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\phoenix\phoenix_a.cpp">
+      <Filter>src\mame\phoenix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\phoenix\phoenix_v.cpp">
+      <Filter>src\mame\phoenix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\phoenix\pleiads.cpp">
+      <Filter>src\mame\phoenix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\phoenix\safarir.cpp">
+      <Filter>src\mame\phoenix</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\omori">
+      <UniqueIdentifier>{2B77198F-1745-0D95-00D9-7DBBEC45E9F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\omori\battlex.cpp">
+      <Filter>src\mame\omori</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\omori\carjmbre.cpp">
+      <Filter>src\mame\omori</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\omori\popper.cpp">
+      <Filter>src\mame\omori</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\omori\spaceg.cpp">
+      <Filter>src\mame\omori</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

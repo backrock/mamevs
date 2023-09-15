@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\exidy">
+      <UniqueIdentifier>{086F6A8E-F43C-5E94-DDD0-CEBAC93D3AF9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\exidy\carpolo.h">
+      <Filter>src\mame\exidy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\exidy\circus.h">
+      <Filter>src\mame\exidy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\exidy\exidy440.h">
+      <Filter>src\mame\exidy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\exidy\exidy440_a.h">
+      <Filter>src\mame\exidy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\exidy\micropolis.h">
+      <Filter>src\mame\exidy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\exidy\nl_carpolo.h">
+      <Filter>src\mame\exidy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\exidy\nl_fireone.h">
+      <Filter>src\mame\exidy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\exidy\nl_starfire.h">
+      <Filter>src\mame\exidy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\exidy\sorcerer.h">
+      <Filter>src\mame\exidy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\exidy\starfire.h">
+      <Filter>src\mame\exidy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\exidy\vertigo.h">
+      <Filter>src\mame\exidy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\exidy\victory.h">
+      <Filter>src\mame\exidy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\carpolo.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\carpolo_m.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\carpolo_v.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\circus.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\circus_a.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\circus_v.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\exidy.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\exidy440.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\exidy440_a.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\exidy440_v.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\exidyttl.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\micropolis.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\nl_carpolo.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\nl_fireone.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\nl_starfire.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\sorcerer.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\sorcerer_m.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\starfire.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\starfire_v.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\vertigo.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\vertigo_m.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\vertigo_v.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\victory.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\exidy\victory_v.cpp">
+      <Filter>src\mame\exidy</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

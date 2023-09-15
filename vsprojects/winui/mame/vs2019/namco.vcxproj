@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AA6E246E-16D0-017C-9F3D-482E0B9E383B}</ProjectGuid>
+    <RootNamespace>namco</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.10240.0</WindowsTargetPlatformMinVersion>
+    <Keyword>Win32Proj</Keyword>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\..\vs2019\bin\x32\Debug\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x32\Debug\namco\</IntDir>
+    <TargetName>namco</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\..\..\vs2019\bin\x64\Debug\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x64\Debug\namco\</IntDir>
+    <TargetName>namco</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\..\vs2019\bin\x32\Release\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x32\Release\namco\</IntDir>
+    <TargetName>namco</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\..\..\vs2019\bin\x64\Release\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x64\Release\namco\</IntDir>
+    <TargetName>namco</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)namco.pdb</ProgramDataBaseFileName>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)namco.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)namco.pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)namco.pdb</ProgramDataBaseFileName>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)namco.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)namco.pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)namco.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)namco.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\20pacgal.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\bosco.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\c117.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\digdug.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\galaga.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\gaplus.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\geebee.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\mappy.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco06.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco50.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco51.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco52.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco53.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco54.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco62.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco65.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco68.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcoio.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcoio_gearbox.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcomcu.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcona1.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namconb1.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcos1.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcos10_exio.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcos2.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcos21_3d.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcos21_dsp.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcos21_dsp_c67.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcos22.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcos2_roz.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcos2_sprite.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namcos86.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco_c116.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco_c123tmap.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco_c139.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco_c148.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco_c169roz.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco_c45road.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco_c67.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\namco_settings.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\nl_tankbatt.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\ns10crypt.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\ns11prot.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\polepos.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\polepos_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\rallyx.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\starfield_05xx.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\tceptor.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\turrett.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\warpwarp.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\warpwarp_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\xevious.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\namco\ygv608.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\20pacgal.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\20pacgal_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\30test.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\baraduke.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\bosco.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\c117.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\cgang.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\cswat.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\dangbar.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\digdug.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\dkmb.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\gal3.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\galaga.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\galaga_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\galaga_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\gaplus.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\gaplus_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\gaplus_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\geebee.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\kungfur.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\mappy.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\mappy_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco06.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco50.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco51.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco52.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco53.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco54.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco62.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco65.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco68.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcofl.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcoio.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcoio_gearbox.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcomcu.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcona1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcona1_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namconb1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namconb1_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcond1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcops2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos10.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos10_exio.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos11.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos12.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos1b.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos1_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos1_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos21.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos21_3d.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos21_c67.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos21_de.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos21_dsp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos21_dsp_c67.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos22.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos22_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos23.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos2_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos2_roz.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos2_sprite.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos2_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos86.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namcos86_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco_c116.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco_c123tmap.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco_c139.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco_c148.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco_c169roz.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco_c45road.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco_c67.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\namco_settings.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\nl_tankbatt.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\ns10crypt.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\ns11prot.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\pacland.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\polepos.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\polepos_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\polepos_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\quickncrash.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\rallyx.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\rallyx_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\rbowlorama.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\shootaway2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\skykid.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\starfield_05xx.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\sweetland.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\sweetland4.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\tankbatt.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\tceptor.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\tceptor_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\toypop.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\turrett.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\turrett_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\turrett_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\wacky_gator.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\warpwarp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\warpwarp_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\warpwarp_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\xevious.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\xevious_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\namco\ygv608.cpp">
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

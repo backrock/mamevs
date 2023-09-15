@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\novag">
+      <UniqueIdentifier>{0093088F-EC60-FC94-D5F4-6CBBC161D8F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\novag\cexpert.cpp">
+      <Filter>src\mame\novag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\novag\cforte.cpp">
+      <Filter>src\mame\novag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\novag\const.cpp">
+      <Filter>src\mame\novag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\novag\diablo.cpp">
+      <Filter>src\mame\novag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\novag\micro.cpp">
+      <Filter>src\mame\novag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\novag\micro2.cpp">
+      <Filter>src\mame\novag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\novag\robotadv.cpp">
+      <Filter>src\mame\novag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\novag\savant.cpp">
+      <Filter>src\mame\novag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\novag\sexpert.cpp">
+      <Filter>src\mame\novag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\novag\snova.cpp">
+      <Filter>src\mame\novag</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

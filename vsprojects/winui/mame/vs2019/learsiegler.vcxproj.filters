@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\learsiegler">
+      <UniqueIdentifier>{F41CF8EC-E0AB-81B6-89CA-95B17538925C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\learsiegler\adm11.cpp">
+      <Filter>src\mame\learsiegler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\learsiegler\adm23.cpp">
+      <Filter>src\mame\learsiegler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\learsiegler\adm31.cpp">
+      <Filter>src\mame\learsiegler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\learsiegler\adm36.cpp">
+      <Filter>src\mame\learsiegler</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

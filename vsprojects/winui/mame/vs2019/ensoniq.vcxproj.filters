@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\ensoniq">
+      <UniqueIdentifier>{229729BC-0E90-480E-37C2-2D93231A281A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\ensoniq\esqlcd.h">
+      <Filter>src\mame\ensoniq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ensoniq\esqpanel.h">
+      <Filter>src\mame\ensoniq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ensoniq\esqvfd.h">
+      <Filter>src\mame\ensoniq</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\ensoniq\enmirage.cpp">
+      <Filter>src\mame\ensoniq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ensoniq\esq1.cpp">
+      <Filter>src\mame\ensoniq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ensoniq\esq5505.cpp">
+      <Filter>src\mame\ensoniq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ensoniq\esqasr.cpp">
+      <Filter>src\mame\ensoniq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ensoniq\esqkt.cpp">
+      <Filter>src\mame\ensoniq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ensoniq\esqlcd.cpp">
+      <Filter>src\mame\ensoniq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ensoniq\esqmr.cpp">
+      <Filter>src\mame\ensoniq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ensoniq\esqpanel.cpp">
+      <Filter>src\mame\ensoniq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ensoniq\esqvfd.cpp">
+      <Filter>src\mame\ensoniq</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\ramtek">
+      <UniqueIdentifier>{09A06D78-752B-DB3C-7E3C-5E31EA46373D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\ramtek\hitme.h">
+      <Filter>src\mame\ramtek</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ramtek\m79amb_a.h">
+      <Filter>src\mame\ramtek</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ramtek\nl_starcrus.h">
+      <Filter>src\mame\ramtek</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\ramtek\starcrus.h">
+      <Filter>src\mame\ramtek</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\ramtek\hitme.cpp">
+      <Filter>src\mame\ramtek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ramtek\hitme_a.cpp">
+      <Filter>src\mame\ramtek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ramtek\m79amb.cpp">
+      <Filter>src\mame\ramtek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ramtek\m79amb_a.cpp">
+      <Filter>src\mame\ramtek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ramtek\nl_starcrus.cpp">
+      <Filter>src\mame\ramtek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ramtek\ramtek.cpp">
+      <Filter>src\mame\ramtek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ramtek\starcrus.cpp">
+      <Filter>src\mame\ramtek</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\ramtek\starcrus_v.cpp">
+      <Filter>src\mame\ramtek</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

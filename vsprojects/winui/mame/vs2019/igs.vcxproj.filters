@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\igs">
+      <UniqueIdentifier>{C80980EE-B46C-0F93-5DF2-47494934DB15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\igs\goldstar.h">
+      <Filter>src\mame\igs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\igs\igs017_igs031.h">
+      <Filter>src\mame\igs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\igs\igs022.h">
+      <Filter>src\mame\igs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\igs\igs025.h">
+      <Filter>src\mame\igs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\igs\igs028.h">
+      <Filter>src\mame\igs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\igs\igs036crypt.h">
+      <Filter>src\mame\igs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\igs\iqblock.h">
+      <Filter>src\mame\igs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\igs\lordgun.h">
+      <Filter>src\mame\igs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\igs\pgm.h">
+      <Filter>src\mame\igs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\igs\pgm2.h">
+      <Filter>src\mame\igs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\igs\pgm2_memcard.h">
+      <Filter>src\mame\igs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\igs\pgmcrypt.h">
+      <Filter>src\mame\igs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\igs\pgmprot_igs025_igs012.h">
+      <Filter>src\mame\igs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\igs\pgmprot_igs025_igs022.h">
+      <Filter>src\mame\igs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\igs\pgmprot_igs025_igs028.h">
+      <Filter>src\mame\igs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\igs\pgmprot_igs027a_type1.h">
+      <Filter>src\mame\igs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\igs\pgmprot_igs027a_type2.h">
+      <Filter>src\mame\igs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\igs\pgmprot_igs027a_type3.h">
+      <Filter>src\mame\igs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\igs\pgmprot_orlegend.h">
+      <Filter>src\mame\igs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\cabaret.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\dunhuang.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\funtech.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\goldstar.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\goldstar_v.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\igs009.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\igs011.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\igs017.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\igs017_igs031.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\igs022.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\igs025.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\igs028.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\igs036crypt.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\igspoker.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\igs_fear.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\igs_m027.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\igs_m036.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\iqblock.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\iqblock_v.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\jackie.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\lordgun.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\lordgun_v.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\pgm.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\pgm2.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\pgm2_memcard.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\pgm2_v.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\pgm3.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\pgmcrypt.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\pgmprot_igs025_igs012.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\pgmprot_igs025_igs022.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\pgmprot_igs025_igs028.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\pgmprot_igs027a_type1.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\pgmprot_igs027a_type2.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\pgmprot_igs027a_type3.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\pgmprot_orlegend.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\pgm_v.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\igs\spoker.cpp">
+      <Filter>src\mame\igs</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

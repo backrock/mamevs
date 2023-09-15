@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\nec">
+      <UniqueIdentifier>{BB1E80EE-A781-0F93-5007-48493C49DB15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\nec\bungo.h">
+      <Filter>src\mame\nec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nec\pc6001.h">
+      <Filter>src\mame\nec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nec\pc8001.h">
+      <Filter>src\mame\nec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nec\pc80s31k.h">
+      <Filter>src\mame\nec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nec\pc8401a.h">
+      <Filter>src\mame\nec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nec\pc8801.h">
+      <Filter>src\mame\nec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nec\pc88va.h">
+      <Filter>src\mame\nec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nec\pc88va_sgp.h">
+      <Filter>src\mame\nec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nec\pc9801.h">
+      <Filter>src\mame\nec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nec\pc9801_cd.h">
+      <Filter>src\mame\nec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nec\pc9801_epson.h">
+      <Filter>src\mame\nec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nec\pc9801_kbd.h">
+      <Filter>src\mame\nec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nec\pc9801_memsw.h">
+      <Filter>src\mame\nec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nec\pc9821.h">
+      <Filter>src\mame\nec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nec\pc98ha.h">
+      <Filter>src\mame\nec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nec\pce.h">
+      <Filter>src\mame\nec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\nec\pce_cd.h">
+      <Filter>src\mame\nec</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\apc.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\bungo.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\ews4800.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pc100.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pc6001.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pc6001_v.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pc8001.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pc80s31k.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pc8401a.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pc8401a_v.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pc8801.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pc88va.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pc88va_sgp.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pc88va_v.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pc9801.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pc9801_cd.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pc9801_epson.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pc9801_kbd.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pc9801_memsw.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pc9801_v.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pc9821.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pc98ha.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pce.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pce_cd.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pce_m.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\pcfx.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\nec\tk80bs.cpp">
+      <Filter>src\mame\nec</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\meadows">
+      <UniqueIdentifier>{5554B10D-414D-D05F-6A7F-B5E456D7AF6B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\meadows\lazercmd.h">
+      <Filter>src\mame\meadows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\meadows\meadows.h">
+      <Filter>src\mame\meadows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\meadows\lazercmd.cpp">
+      <Filter>src\mame\meadows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\meadows\lazercmd_v.cpp">
+      <Filter>src\mame\meadows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\meadows\meadows.cpp">
+      <Filter>src\mame\meadows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\meadows\meadows_a.cpp">
+      <Filter>src\mame\meadows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\meadows\meadows_v.cpp">
+      <Filter>src\mame\meadows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\meadows\meadwttl.cpp">
+      <Filter>src\mame\meadows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\meadows\warpsped.cpp">
+      <Filter>src\mame\meadows</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

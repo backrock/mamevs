@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\osd">
+      <UniqueIdentifier>{EFD348A9-5BB3-C744-64CB-521BD0292EA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\osd\windows">
+      <UniqueIdentifier>{D600816F-428C-EE33-4B9D-7128B7A74A34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\osd\windows\ledutil.cpp">
+      <Filter>src\osd\windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

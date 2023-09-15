@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\dataeast">
+      <UniqueIdentifier>{8C51B86D-F867-B603-41DF-4125AD34878B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\astrof.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\boogwing.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\btime.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\bwing.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\cninja.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\dec0.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\dec8.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\decbac06.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\deckarn.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\decmxc06.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\deco102.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\deco104.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\deco146.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\deco156_m.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\deco16ic.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\deco222.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\deco32.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\decocass.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\decocass_tape.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\decocomn.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\decocpu6.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\decocpu7.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\decocrpt.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\deco_ace.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\deco_irq.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\deco_mlc.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\decrmc3.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\kchamp.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\kingobox.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\lemmings.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\liberate.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\madalien.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\rohga.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\simpl156.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\supbtime.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\dataeast\tumbleb.h">
+      <Filter>src\mame\dataeast</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\actfancr.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\astrof.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\astrof_a.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\backfire.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\battlera.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\boogwing.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\boogwing_v.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\brkthru.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\btime.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\btime_m.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\btime_v.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\bwing.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\bwing_v.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\cbuster.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\chanbara.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\cninja.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\cninja_v.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\cntsteer.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\compgolf.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\darkseal.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\dassault.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\dblewing.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\dec0.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\dec0_m.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\dec0_v.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\dec8.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\dec8_v.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\decbac06.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\deckarn.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\decmxc06.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\deco102.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\deco104.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\deco146.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\deco156.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\deco156_m.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\deco16ic.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\deco222.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\deco32.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\deco32_v.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\decocass.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\decocass_m.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\decocass_tape.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\decocass_v.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\decocomn.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\decocpu6.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\decocpu7.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\decocrpt.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\deco_ace.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\deco_irq.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\deco_ld.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\deco_mlc.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\deco_mlc_v.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\decrmc3.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\deshoros.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\dietgo.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\dreambal.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\dvi.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\exprraid.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\ffantasy_ms.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\firetrap.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\funkyjet.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\karnov.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\kchamp.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\kchamp_v.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\kingobox.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\kingobox_v.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\lemmings.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\lemmings_v.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\liberate.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\liberate_v.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\madalien.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\madalien_a.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\madalien_v.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\madmotor.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\metlclsh.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\mirage.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\pcktgal.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\pktgaldx.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\progolf.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\rohga.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\rohga_v.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\scregg.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\shootout.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\sidepckt.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\simpl156.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\simpl156_v.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\sshangha.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\stadhero.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\supbtime.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\supbtime_v.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\thedeep.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\tryout.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\tumbleb.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\tumbleb_v.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\dataeast\vaportra.cpp">
+      <Filter>src\mame\dataeast</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

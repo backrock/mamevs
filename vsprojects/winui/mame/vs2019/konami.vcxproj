@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1BA5B02C-0734-3AF6-B052-4EF19CC04A9C}</ProjectGuid>
+    <RootNamespace>konami</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.10240.0</WindowsTargetPlatformMinVersion>
+    <Keyword>Win32Proj</Keyword>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\..\vs2019\bin\x32\Debug\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x32\Debug\konami\</IntDir>
+    <TargetName>konami</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\..\..\vs2019\bin\x64\Debug\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x64\Debug\konami\</IntDir>
+    <TargetName>konami</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\..\vs2019\bin\x32\Release\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x32\Release\konami\</IntDir>
+    <TargetName>konami</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\..\..\vs2019\bin\x64\Release\mame_mame\</OutDir>
+    <IntDir>..\..\..\..\vs2019\obj\x64\Release\konami\</IntDir>
+    <TargetName>konami</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)konami.pdb</ProgramDataBaseFileName>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)konami.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)konami.pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)konami.pdb</ProgramDataBaseFileName>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;MAME_DEBUG;MAME_PROFILER;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)konami.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)konami.pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x86;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)konami.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>/bigobj /WX- /w45038 /wd4003 /wd4005 /wd4018 /wd4060 /wd4065 /wd4100 /wd4127 /wd4146 /wd4201 /wd4244 /wd4245 /wd4250 /wd4267 /wd4310 /wd4319 /wd4324 /wd4334 /wd4389 /wd4456 /wd4457 /wd4458 /wd4459 /wd4611 /wd4702 /wd4706 /wd4804 /wd4805 /wd4996 /Zc:__cplusplus  %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DiagnosticsFormat>Caret</DiagnosticsFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>X64_WINDOWS_ABI;PTR64=1;NDEBUG;CRLF=3;LSB_FIRST;FLAC__NO_DLL;PUGIXML_HEADER_ONLY;NATIVE_DRC=drcbe_x64;LUA_COMPAT_ALL;LUA_COMPAT_5_1;LUA_COMPAT_5_2;_WIN64;XML_STATIC;WIN32;_WIN32;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;_CRT_STDIO_LEGACY_WIDE_SPECIFIERS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\..\3rdparty\dxsdk\Include;..\..\..\..\..\src\osd;..\..\..\..\..\src\emu;..\..\..\..\..\src\devices;..\..\..\..\..\src\mame\shared;..\..\..\..\..\src\lib;..\..\..\..\..\src\lib\util;..\..\..\..\..\3rdparty;..\..\..\..\generated\mame\layout;..\..\..\..\..\3rdparty\asio\include;..\..\..\..\..\3rdparty\libflac\include;..\..\..\..\..\3rdparty\glm;..\..\..\..\..\3rdparty\libjpeg;..\..\..\..\..\3rdparty\rapidjson\include;..\..\..\..\..\3rdparty\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)konami.lib</OutputFile>
+      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\3dom2.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\3dom2_te.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\combatsc.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\hyprolyb.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k001005.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k001006.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k001604.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k007121.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k007342.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k007420.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k007452.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k037122.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k051733.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k051960.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k052109.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k053244_k053245.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k053246_k053247_k055673.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k053250.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k053250_ps.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k053251.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k054000.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k054156_k054157_k056832.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k054338.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k055555.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k057714.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k573cass.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k573dio.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k573fpga.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k573kara.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k573mcal.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k573mcr.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k573msu.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\k573npu.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\konami1.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\konamigx.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\konamipt.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\konami_gn676_lan.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\konami_helper.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\konppc.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\konppc_jvshost.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\midikbd.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\mystwarr.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\nemesis.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\trackfld.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\trackfld_a.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\tutankhm.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\twin16.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\wecleman.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\windy2.h" />
+    <ClInclude Include="..\..\..\..\..\src\mame\konami\zs01.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\3dom2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\3dom2_te.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\88games.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\ajax.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\aliens.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\asterix.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\battlnts.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\bishi.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\bladestl.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\blockhl.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\bottom9.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\chqflag.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\circusc.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\cobra.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\combatsc.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\combatsc_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\contra.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\crimfght.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\dbz.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\ddribble.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\divebomb.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\djmain.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\fastlane.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\finalizr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\firebeat.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\flkatck.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\gberet.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\giclassic.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\gijoe.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\goldenregion.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\gradius3.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\gticlub.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\gyruss.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\hcastle.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\hexion.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\hornet.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\hyperspt.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\hyprolyb.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\ironhors.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\jackal.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\jailbrek.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\junofrst.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k001005.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k001006.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k001604.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k007121.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k007342.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k007420.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k007452.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k037122.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k051733.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k051960.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k052109.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k053244_k053245.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k053246_k053247_k055673.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k053250.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k053250_ps.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k053251.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k054000.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k054156_k054157_k056832.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k054338.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k055555.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k057714.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k573cass.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k573dio.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k573fpga.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k573kara.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k573mcal.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k573mcr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k573msu.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\k573npu.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konami1.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konamigq.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konamigs.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konamigv.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konamigx.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konamigx_m.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konamigx_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konamim2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konami_gn676_lan.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konami_helper.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konblands.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konendev.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\kongs470.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konmedal.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konmedal020.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konmedal68k.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konmedalppc.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konppc.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\konppc_jvshost.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\kontest.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\kpontoon.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\kpython.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\kpython2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\ksys573.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\labyrunr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\lethal.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\mainevt.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\megazone.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\midikbd.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\mikie.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\mogura.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\moo.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\mystwarr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\mystwarr_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\nemesis.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\nemesis_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\nwk-tr.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\otomedius.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\overdriv.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\pandoras.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\parodius.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\pingpong.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\piratesh.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\plygonet.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\pooyan.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\qdrmfgp.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\quickpick5.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\rockrage.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\rocnrope.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\rollerg.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\rungun.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\sbasketb.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\scotrsht.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\shaolins.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\simpsons.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\spy.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\stingnet.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\surpratk.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\tasman.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\tgtpanic.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\thunderx.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\timeplt.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\tmnt.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\tmnt2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\tp84.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\trackfld.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\trackfld_a.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\trackfld_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\tutankhm.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\tutankhm_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\twin16.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\twin16_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\twinkle.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\ultraman.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\ultrsprt.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\vendetta.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\viper.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\wecleman.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\wecleman_v.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\windy2.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\xexex.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\xmen.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\yiear.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\zr107.cpp">
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\konami\zs01.cpp">
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

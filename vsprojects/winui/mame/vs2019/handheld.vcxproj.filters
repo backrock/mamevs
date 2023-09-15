@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\handheld">
+      <UniqueIdentifier>{FDAFF810-69C6-F6A6-B23D-82C81E93C72E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\handheld\hh_sm510.h">
+      <Filter>src\mame\handheld</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\handheld\nl_bship.h">
+      <Filter>src\mame\handheld</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\handheld\nl_sfxphasor.h">
+      <Filter>src\mame\handheld</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\chessking.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\gameking.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\gmaster.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\hh_cop400.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\hh_cops1.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\hh_hmcs40.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\hh_melps4.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\hh_mn1400.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\hh_pic16.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\hh_pps41.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\hh_rw5000.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\hh_sm510.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\hh_smc1k.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\hh_tms1k.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\hh_ucom4.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\lk3000.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\monty.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\nl_bship.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\nl_sfxphasor.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\pensebem.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\rzone.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\scrablex.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\talkingbb.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\talkingfb.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\teammate.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\handheld\wildfire.cpp">
+      <Filter>src\mame\handheld</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

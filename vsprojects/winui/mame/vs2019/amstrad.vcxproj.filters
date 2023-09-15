@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\amstrad">
+      <UniqueIdentifier>{5149EE85-3D42-0DD8-6674-F25C52CCECE3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\amstrad\ams40041.h">
+      <Filter>src\mame\amstrad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\amstrad\amstrad.h">
+      <Filter>src\mame\amstrad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\amstrad\pc1512.h">
+      <Filter>src\mame\amstrad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\amstrad\pc1512kb.h">
+      <Filter>src\mame\amstrad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\amstrad\pcw.h">
+      <Filter>src\mame\amstrad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\amstrad\pcw16.h">
+      <Filter>src\mame\amstrad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\amstrad\pda600_copro.h">
+      <Filter>src\mame\amstrad</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\amstrad\ams40041.cpp">
+      <Filter>src\mame\amstrad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\amstrad\amstrad.cpp">
+      <Filter>src\mame\amstrad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\amstrad\amstrad_m.cpp">
+      <Filter>src\mame\amstrad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\amstrad\amstr_pc.cpp">
+      <Filter>src\mame\amstrad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\amstrad\nc.cpp">
+      <Filter>src\mame\amstrad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\amstrad\pc1512.cpp">
+      <Filter>src\mame\amstrad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\amstrad\pc1512kb.cpp">
+      <Filter>src\mame\amstrad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\amstrad\pcw.cpp">
+      <Filter>src\mame\amstrad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\amstrad\pcw16.cpp">
+      <Filter>src\mame\amstrad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\amstrad\pcw16_v.cpp">
+      <Filter>src\mame\amstrad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\amstrad\pcw_v.cpp">
+      <Filter>src\mame\amstrad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\amstrad\pda600.cpp">
+      <Filter>src\mame\amstrad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\amstrad\pda600_copro.cpp">
+      <Filter>src\mame\amstrad</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

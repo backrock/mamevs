@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\mitsubishi">
+      <UniqueIdentifier>{A6FC4C14-125E-2A22-9BCB-70D4072C61E1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\mitsubishi\multi16.cpp">
+      <Filter>src\mame\mitsubishi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\mitsubishi\multi8.cpp">
+      <Filter>src\mame\mitsubishi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\mitsubishi\trium.cpp">
+      <Filter>src\mame\mitsubishi</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

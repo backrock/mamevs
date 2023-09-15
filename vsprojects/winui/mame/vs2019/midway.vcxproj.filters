@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame">
+      <UniqueIdentifier>{09EE61D2-F5BA-BCDD-1ED4-AA850A00F26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mame\midway">
+      <UniqueIdentifier>{D0B54F6D-3C41-BD31-4552-4026B15C1932}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\src\mame\midway\midtunit_v.ipp">
+      <Filter>src\mame\midway</Filter>
+    </None>
+    <None Include="..\..\..\..\..\src\mame\midway\midtview.ipp">
+      <Filter>src\mame\midway</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\mame\midway\astrocde.h">
+      <Filter>src\mame\midway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midway\balsente.h">
+      <Filter>src\mame\midway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midway\csd.h">
+      <Filter>src\mame\midway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midway\gridlee.h">
+      <Filter>src\mame\midway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midway\mcr.h">
+      <Filter>src\mame\midway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midway\mcr3.h">
+      <Filter>src\mame\midway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midway\mcr68.h">
+      <Filter>src\mame\midway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midway\midtunit.h">
+      <Filter>src\mame\midway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midway\midtunit_v.h">
+      <Filter>src\mame\midway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midway\midvunit.h">
+      <Filter>src\mame\midway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midway\midway.h">
+      <Filter>src\mame\midway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midway\midwayic.h">
+      <Filter>src\mame\midway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midway\midwunit.h">
+      <Filter>src\mame\midway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midway\midxunit.h">
+      <Filter>src\mame\midway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midway\midyunit.h">
+      <Filter>src\mame\midway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midway\midzeus.h">
+      <Filter>src\mame\midway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midway\nl_sspeedr.h">
+      <Filter>src\mame\midway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midway\sente6vb.h">
+      <Filter>src\mame\midway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midway\sspeedr.h">
+      <Filter>src\mame\midway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\mame\midway\williams.h">
+      <Filter>src\mame\midway</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\astrocde.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\astrocde_v.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\astrohome.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\atlantis.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\balsente.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\balsente_m.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\balsente_v.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\csd.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\gridlee.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\gridlee_a.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\gridlee_v.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\mcr.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\mcr3.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\mcr3_v.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\mcr68.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\mcr68_m.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\mcr68_v.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\mcr_m.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\mcr_v.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\midqslvr.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\midtunit.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\midtunit_m.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\midtunit_v.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\midvunit.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\midvunit_v.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\midway.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\midwayic.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\midwunit.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\midwunit_m.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\midxunit.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\midxunit_m.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\midyunit.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\midyunit_m.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\midyunit_v.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\midzeus.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\midzeus_v.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\mw18w.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\mwsub.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\nl_sspeedr.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\omegrace.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\pinball2k.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\seattle.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\sente6vb.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\spyhuntertec.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\sspeedr.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\sspeedr_v.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\starrider.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\tmaster.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\vegas.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\williams.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\williams_m.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\williams_v.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\wmg.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\mame\midway\zwackery.cpp">
+      <Filter>src\mame\midway</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
